@@ -49,7 +49,7 @@ const Hero = () => {
                   Let’s shift your business
                 </h4>
                 <h1 className="title text-white mb-8">
-                  Shift your business fast with Shade Pro.
+                  Shift your business fast with Giramondo.
                 </h1>
                 <p className="text-white mb-11 pr-md-12">
                   With lots of unique blocks, you can easily build a page

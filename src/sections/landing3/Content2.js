@@ -89,7 +89,7 @@ const Content = () => {
                       onClick={() => setOpenItem(1)}
                       aria-expanded={openItem === 1}
                     >
-                      How to setup Shade Pro?
+                      How to setup Giramondo?
                     </button>
                   </div>
 
@@ -112,7 +112,7 @@ const Content = () => {
                       onClick={() => setOpenItem(2)}
                       aria-expanded={openItem === 2}
                     >
-                      Can I use Shade Pro for my clients?
+                      Can I use Giramondo for my clients?
                     </button>
                   </div>
 
