@@ -9,6 +9,10 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
+    "/": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
     "/_app": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
@@ -20,23 +24,11 @@
     "/_polyfills": [
       "static/runtime/polyfills.js"
     ],
-    "/b2b": [
+    "/index": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/consultation": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/mobile-app": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/product": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/telemedicine": [
+    "/web-application": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]

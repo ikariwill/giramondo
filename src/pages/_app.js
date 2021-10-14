@@ -28,6 +28,8 @@ import "../assets/fonts/fontawesome-5/css/all.css";
 import "../scss/bootstrap.scss";
 import "../scss/main.scss";
 
+import '../scss/custom.scss'
+
 const MyApp = ({ Component, pageProps, router }) => {
   if (router.pathname.match(/sign|reset|coming/)) {
     return (

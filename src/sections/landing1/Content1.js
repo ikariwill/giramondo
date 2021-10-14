@@ -9,13 +9,13 @@ import imgAboutS from "../../assets/image/l5/jpg/l5-about-sm.jpg";
 const Content1 = () => (
   <>
     {/* <!-- Content section 1 --> */}
-    <div className="content-section bg-default-4 pt-lg-25 pt-15 pb-10 pb-lg-15">
+    <div className="content-section bg-default-4  pb-10 pb-lg-15">
       <Container>
         <Row>
           <Col xl="6" lg="7" md="8">
             <div className="section-title mb-13">
               <h4 className="pre-title gr-text-12 text-red text-uppercase mb-9">
-                Our Story
+                Quem somos
               </h4>
               <h2 className="title gr-text-4">
                 We know how everything works and why your business is failing

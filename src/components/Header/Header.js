@@ -90,7 +90,7 @@ const Header = () => {
           <nav className="navbar site-navbar offcanvas-active navbar-expand-lg px-0">
             {/* <!-- Brand Logo--> */}
             <div className="brand-logo">
-              <Logo white={gContext.header.theme === "dark"} />
+              <Logo className="logo-main" white={gContext.header.theme === "dark"} />
             </div>
             <div className="collapse navbar-collapse">
               <div className="navbar-nav-wrapper">
@@ -226,7 +226,7 @@ const Header = () => {
 
             {gContext.header.button === "cta" && (
               <div className="header-btn ml-auto ml-lg-0 mr-6 mr-lg-0 d-none d-xs-block">
-                <Link href="/#">
+                <Link href="/#products">
                   <a className={`btn btn-${gContext.header.variant}`}>
                     {gContext.header.buttonText}
                   </a>

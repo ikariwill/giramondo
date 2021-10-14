@@ -11,17 +11,15 @@ import imgB6 from "../../assets/image/l4/png/l4-brand6.png";
 const Brand = () => (
   <>
     {/* <!-- Brand section --> */}
-    <div className="brand-section pt-11 pb-9 pt-lg-24 pb-lg-24 bg-default-6 ">
+    <div className="brand-section pt-11 pb-9  pb-lg-24 bg-default-6 ">
       <Container>
         <Row className="justify-content-center align-items-center">
           <Col md="10" lg="9" xl="8">
             <div className="section-title text-center mb-7 mb-lg-11">
-              <h2 className="title gr-text-4 mb-9">Big companies are here</h2>
+              <h2 className="title gr-text-4 mb-9">Brandings</h2>
               <p className="gr-text-8 px-lg-8 mb-0">
                 With lots of unique blocks, you can easily build a page without
-                coding. Build your next consultancy website within few minutes.
-                You have a business to run. Stop worring about cross-browser
-                bugs, designing new pages.
+                coding.
               </p>
             </div>
           </Col>
