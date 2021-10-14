@@ -15,4 +15,8 @@ export const menuItems = [
     name: '#',
     label: 'Acessórios'
   },
+  {
+    name: '#',
+    label: 'Contato'
+  },
 ];
