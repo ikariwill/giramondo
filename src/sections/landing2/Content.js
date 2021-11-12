@@ -48,10 +48,7 @@ const Content = () => (
                       <h3 className="w-title mb-5 gr-text-7">
                         Escolha o produto que tem interesse
                       </h3>
-                      <p className="gr-text-9 mb-0">
-                        With lots of unique blocks, you can easily build a page
-                        without coding.
-                      </p>
+
                     </div>
                   </div>
                 </Col>
@@ -69,10 +66,7 @@ const Content = () => (
                       <h3 className="w-title mb-5 gr-text-7">
                         Receba informações via Whatsapp
                       </h3>
-                      <p className="gr-text-9 mb-0">
-                        With lots of unique blocks, you can easily build a page
-                        without coding.
-                      </p>
+
                     </div>
                   </div>
                 </Col>
@@ -88,12 +82,8 @@ const Content = () => (
                     </div>
                     <div className="media-body">
                       <h3 className="w-title mb-5 gr-text-7">
-                        Receba seu produto
+                        Pague e receba seu produto em casa
                       </h3>
-                      <p className="gr-text-9 mb-0">
-                        With lots of unique blocks, you can easily build a page
-                        without coding.
-                      </p>
                     </div>
                   </div>
                 </Col>

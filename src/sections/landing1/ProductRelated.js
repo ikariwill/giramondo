@@ -29,42 +29,7 @@ const ProductRelated = () => {
               data-aos-duration="750"
               data-aos-once="true"
             >
-              <Col xs="6" md="4" lg="4" xl="3" className="mt-12 mt-md-17">
-                <div className="product-card gr-product-hover-1">
-                  <div className="py-29 w-100 position-relative rounded-10 overflow-hidden">
-                    <div className="card-image bg-gray-2 gr-abs-tl h-100 w-100 gr-flex-all-center">
-                      <img src={helmetImage} alt="" />
-                    </div>
-                    <div className="card-btn hover-animation-item">
-                    <a 
-                      target="_blank" 
-                      href={
-                          `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=${products.helmetText}`
-                      }
-                    >
-                        <Button className="btn-hover-translate-none with-icon-left gr-card-box-shadow py-3 px-8">
-                          Contatar vendedor
-                        </Button>
-                      </a>
-                    </div>
-                  </div>
-                  <div className="card-text text-center">
-                    <div className="gr-text-9 mt-8 line-height-reset mb-2">
-                      <span className="text-green">R$5.800</span>{" "}
-                      <span className="ml-2 text-linethrough"> R$4.600</span>{" "}
-                    </div>
-                    <h3 className="gr-text-7">Capacetes</h3>
-                    <div className="ratings d-flex justify-content-center">
-                      <i className="fas fa-star mx-1 text-yellow-orange gr-text-8"></i>
-                      <i className="fas fa-star mx-1 text-yellow-orange gr-text-8"></i>
-                      <i className="fas fa-star mx-1 text-yellow-orange gr-text-8"></i>
-                      <i className="fas fa-star mx-1 text-yellow-orange gr-text-8"></i>
-                      <i className="fas fa-star mx-1 text-yellow-orange gr-text-8"></i>
-                    </div>
-                  </div>
-                </div>
-              </Col>
-              <Col xs="6" md="4" lg="4" xl="3" className="mt-12 mt-md-17">
+              <Col xs="4" md="2" lg="4" xl="3" className="mt-12 mt-md-17">
                 <div className="product-card gr-product-hover-1">
                   <div className="py-29 w-100 position-relative rounded-10 overflow-hidden">
                     <div className="card-image bg-gray-2 gr-abs-tl h-100 w-100 gr-flex-all-center">
@@ -84,24 +49,43 @@ const ProductRelated = () => {
                   </div>
                   <div className="card-text text-center">
                     <div className="gr-text-9 mt-8 line-height-reset mb-2">
-                    <span className="text-green">R$6.500</span>{" "}
                     </div>
                     <h3 className="gr-text-7">Bikes</h3>
-                    <div className="ratings d-flex justify-content-center">
-                      <i className="fas fa-star mx-1 text-yellow-orange gr-text-8"></i>
-                      <i className="fas fa-star mx-1 text-yellow-orange gr-text-8"></i>
-                      <i className="fas fa-star mx-1 text-yellow-orange gr-text-8"></i>
-                      <i className="fas fa-star mx-1 text-yellow-orange gr-text-8"></i>
-                      <i className="fas fa-star mx-1 text-yellow-orange gr-text-8"></i>
-                    </div>
                   </div>
                 </div>
               </Col>
-              <Col xs="6" md="4" lg="4" xl="3" className="mt-12 mt-md-17">
+              <Col xs="4" md="2" lg="4" xl="3" className="mt-12 mt-md-17">
                 <div className="product-card gr-product-hover-1">
                   <div className="py-29 w-100 position-relative rounded-10 overflow-hidden">
                     <div className="card-image bg-gray-2 gr-abs-tl h-100 w-100 gr-flex-all-center">
-                      <img src={helmetImage} alt="" />
+                    <img src="https://i.imgur.com/HQMM8a5.jpg" alt="" />
+                    </div>
+                    <div className="card-btn hover-animation-item">
+                    <a 
+                      target="_blank" 
+                      href={
+                          `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=${products.helmetText}`
+                      }
+                    >
+                        <Button className="btn-hover-translate-none with-icon-left gr-card-box-shadow py-3 px-8">
+                          Contatar vendedor
+                        </Button>
+                      </a>
+                    </div>
+                  </div>
+                  <div className="card-text text-center">
+                    <div className="gr-text-9 mt-8 line-height-reset mb-2">
+                    </div>
+                    <h3 className="gr-text-7">Vestuários</h3>
+
+                  </div>
+                </div>
+              </Col>
+              <Col xs="4" md="2" lg="4" xl="3" className="mt-12 mt-md-17">
+                <div className="product-card gr-product-hover-1">
+                  <div className="py-29 w-100 position-relative rounded-10 overflow-hidden">
+                    <div className="card-image bg-gray-2 gr-abs-tl h-100 w-100 gr-flex-all-center">
+                    <img src="https://i.imgur.com/TBcAwvZ.jpg" alt="" />
                     </div>
                     <div className="card-btn hover-animation-item">
                       <a target="_blank"
@@ -117,24 +101,16 @@ const ProductRelated = () => {
                   </div>
                   <div className="card-text text-center">
                     <div className="gr-text-9 mt-8 line-height-reset mb-2">
-                    <span className="text-green">R$3.800</span>{" "}
                     </div>
-                    <h3 className="gr-text-7">Acessórios</h3>
-                    <div className="ratings d-flex justify-content-center">
-                      <i className="fas fa-star mx-1 text-yellow-orange gr-text-8"></i>
-                      <i className="fas fa-star mx-1 text-yellow-orange gr-text-8"></i>
-                      <i className="fas fa-star mx-1 text-yellow-orange gr-text-8"></i>
-                      <i className="fas fa-star mx-1 text-yellow-orange gr-text-8"></i>
-                      <i className="fas fa-star mx-1 text-yellow-orange gr-text-8"></i>
-                    </div>
+                    <h3 className="gr-text-7">Componentes</h3>
                   </div>
                 </div>
               </Col>
-              <Col xs="6" md="4" lg="4" xl="3" className="mt-12 mt-md-17">
+              <Col xs="4" md="2" lg="4" xl="3" className="mt-12 mt-md-17">
                 <div className="product-card gr-product-hover-1">
                   <div className="py-29 w-100 position-relative rounded-10 overflow-hidden">
                     <div className="card-image bg-gray-2 gr-abs-tl h-100 w-100 gr-flex-all-center">
-                      <img src={helmetImage} alt="" />
+                    <img src="https://i.imgur.com/Oz1q5Kk.jpg" alt="" />
                     </div>
                     <div className="card-btn hover-animation-item">
                       <a target="_blank"
@@ -150,17 +126,33 @@ const ProductRelated = () => {
                   </div>
                   <div className="card-text text-center">
                     <div className="gr-text-9 mt-8 line-height-reset mb-2">
-                    <span className="text-green">R$5.800</span>{" "}
-                    <span className="ml-2 text-linethrough"> R$4.600</span>{" "}
                     </div>
-                    <h3 className="gr-text-7">Rodas</h3>
-                    <div className="ratings d-flex justify-content-center">
-                      <i className="fas fa-star mx-1 text-yellow-orange gr-text-8"></i>
-                      <i className="fas fa-star mx-1 text-yellow-orange gr-text-8"></i>
-                      <i className="fas fa-star mx-1 text-yellow-orange gr-text-8"></i>
-                      <i className="fas fa-star mx-1 text-yellow-orange gr-text-8"></i>
-                      <i className="fas fa-star mx-1 text-yellow-orange gr-text-8"></i>
+                    <h3 className="gr-text-7">Acessórios</h3>
+                  </div>
+                </div>
+              </Col>              
+              <Col xs="4" md="2" lg="4" xl="3" className="mt-12 mt-md-17">
+                <div className="product-card gr-product-hover-1">
+                  <div className="py-29 w-100 position-relative rounded-10 overflow-hidden">
+                    <div className="card-image bg-gray-2 gr-abs-tl h-100 w-100 gr-flex-all-center">
+                    <img src="https://i.imgur.com/57uemMl.png" alt="" />
                     </div>
+                    <div className="card-btn hover-animation-item">
+                      <a target="_blank"
+                        href={
+                          `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=${products.rodasText}`
+                        }
+                      >
+                        <Button className="btn-hover-translate-none with-icon-left gr-card-box-shadow py-3 px-8">
+                          Contatar vendedor
+                        </Button>
+                      </a>
+                    </div>
+                  </div>
+                  <div className="card-text text-center">
+                    <div className="gr-text-9 mt-8 line-height-reset mb-2">
+                    </div>
+                    <h3 className="gr-text-7">Linha Giramondo</h3>
                   </div>
                 </div>
               </Col>

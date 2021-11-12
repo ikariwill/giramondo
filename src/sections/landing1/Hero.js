@@ -45,22 +45,13 @@ const Hero = () => {
               data-aos-delay="500"
             >
               <div className="hero-content mt-11 mt-lg-0">
-                <h4 className="pre-title gr-text-12 text-white text-uppercase mb-7">
-                  Let’s shift your business
-                </h4>
                 <h1 className="title text-white mb-8">
-                  Shift your business fast with Giramondo.
+                  Embarque nessa aventura com a Giramondo.
                 </h1>
                 <p className="text-white mb-11 pr-md-12">
-                  With lots of unique blocks, you can easily build a page
-                  without coding. Build your next consultancy website within few
-                  minutes.
+                  Celeste é a cor da Bianchi por excelência. Combinada com Passione, expressa a
+                  paixão pela marca Bianchi. No Brasil, Bianchi é Giramondo.
                 </p>
-                {/* <div className="hero-btn">
-                  <Button href="#" className="gr-hover-y">
-                    Get started a project
-                  </Button>
-                </div> */}
               </div>
             </Col>
           </Row>

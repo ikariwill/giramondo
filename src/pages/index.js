@@ -7,7 +7,7 @@ import Content1 from "../sections/landing1/Content1";
 import Content2 from "../sections/landing2/Content";
 import Fact from "../sections/landing1/Fact";
 import Feature from "../sections/landing1/Feature";
-import CTA1 from "../sections/landing1/CTA1";
+
 import CaseStudies from "../sections/landing1/CaseStudies";
 import ProductRelated from "../sections/landing1/ProductRelated";
 import CTA2 from "../sections/landing1/CTA2";
@@ -28,9 +28,7 @@ const IndexPage = () => {
         <Content2 />
         <Brand />
         <ProductRelated />
-        <Fact />
         <Feature />
-        <CTA1 />
         <CaseStudies />
         <CTA2 />
       </PageWrapper>

@@ -19,7 +19,7 @@ const CaseStudies = () => (
                 Case studies
               </h3>
               <h2 className="title gr-text-4 mb-0">
-                Our works describe why we are the best in the business
+                Aventuras
               </h2>
             </div>
           </Col>
@@ -36,7 +36,7 @@ const CaseStudies = () => (
                     Graphic Design
                   </span>
                   <h3 className="case-title gr-text-6 mb-0">
-                    Aura Branding Design
+                    Caminho Real
                   </h3>
                 </div>
               </div>
@@ -62,7 +62,7 @@ const CaseStudies = () => (
                     Graphic Design
                   </span>
                   <h3 className="case-title gr-text-6 mb-0">
-                    AB.S Snack Packaging
+                    Caminho da fé
                   </h3>
                 </div>
               </div>

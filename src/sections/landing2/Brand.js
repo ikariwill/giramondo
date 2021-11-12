@@ -16,7 +16,7 @@ const Brand = () => (
         <Row className="justify-content-center align-items-center">
           <Col md="10" lg="9" xl="8">
             <div className="section-title text-center mb-7 mb-lg-11">
-              <h2 className="title gr-text-4 mb-9">Brandings</h2>
+              <h2 className="title gr-text-4 mb-9">Marcas</h2>
               <p className="gr-text-8 px-lg-8 mb-0">
                 With lots of unique blocks, you can easily build a page without
                 coding.
