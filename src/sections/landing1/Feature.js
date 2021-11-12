@@ -18,7 +18,7 @@ const Feature = () => (
                 Why choose us
               </h4>
               <h2 className="title gr-text-4">
-                People choose us because we serve the best for everyone
+                Diferenciais Giramondo
               </h2>
             </div>
           </Col>

@@ -1,6 +1,7 @@
 
 // main menu
 .main-menu{
+  padding-top: 7px;
   @include desktops{
     display: flex;
     justify-content: flex-end;
@@ -40,7 +41,7 @@
 }
   &>li{
     &>.nav-link{
-      color: var(--color-texts)!important;
+      color: #fff!important;
       font-size: 15px;
       font-weight: 700;
       @include desktops{

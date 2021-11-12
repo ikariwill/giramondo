@@ -39,13 +39,7 @@ const Footer = () => {
                 coding. Build your next landing page.
               </p>
               <ul className="social-icons py-7 list-unstyled mb-7 mb-lg-0">
-                <li className="mr-2">
-                  <Link href="/">
-                    <a className={iconClassName}>
-                      <i className="icon icon-logo-twitter"></i>
-                    </a>
-                  </Link>
-                </li>
+
                 <li className="mr-2">
                   <Link href="/">
                     <a className={iconClassName}>
@@ -60,13 +54,7 @@ const Footer = () => {
                     </a>
                   </Link>
                 </li>
-                <li className="mr-2">
-                  <Link href="/">
-                    <a className={iconClassName}>
-                      <i className="icon icon-logo-linkedin"></i>
-                    </a>
-                  </Link>
-                </li>
+                
               </ul>
             </Col>
             <Col lg="8" md="8" className="offset-lg-1">
