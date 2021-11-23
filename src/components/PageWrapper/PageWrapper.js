@@ -8,7 +8,7 @@ const headerConfigDefault = {
   align: "left",
   isFluid: false,
   button: "cta", // trial, cart, cta, account, null
-  buttonText: "Produtos", // trial, cart, cta, account, null
+  buttonText: "trial", // trial, cart, cta, account, null
 };
 
 const footerConfigDefault = {

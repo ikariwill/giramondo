@@ -40,7 +40,7 @@ export const menuItems = [
   //   label: 'Componentes'
   // },
   {
-    name: '#',
+    name: '#aventura',
     label: 'Aventura'
   },
   {

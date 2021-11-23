@@ -1,7 +1,22 @@
-.header-background-custom {
-  background: rgba(0, 0, 0, 0.2) url('https://i.imgur.com/sMBSAyt.jpg');
+.header-background-custom-0 {
+  background: rgba(0, 0, 0, 0.2) url('../assets/image/header1.jpg');
   background-size: cover;
   background-blend-mode: darken;
+   transition: background-image 1s ease-in-out;
+}
+
+.header-background-custom-1 {
+  background: rgba(0, 0, 0, 0.2) url('../assets/image/header2.jpg');
+  background-size: cover;
+  background-blend-mode: darken;
+  transition: background-image 1s ease-in-out;
+}
+
+.header-background-custom-2 {
+  background: rgba(0, 0, 0, 0.2) url('../assets/image/header.jpg');
+  background-size: cover;
+  background-blend-mode: darken;
+  transition: background-image 1s ease-in-out;
 }
 
 .logo-main {

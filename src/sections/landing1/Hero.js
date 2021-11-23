@@ -1,14 +1,49 @@
-import React from "react";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import React, { useState, useEffect } from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import useInterval from 'use-interval'
 
-import imgL1Hero from "../../assets/image/l5/png/l5-hero-img.png";
 import imgDot from "../../assets/image/l5/png/l5-dot-shape.png";
 
+const slider = [
+  {
+    title: "Embarque nessa aventura com a Giramondo.",
+    description: `Celeste é a cor da Bianchi por excelência. Combinada com Passione, expressa a
+                  paixão pela marca Bianchi.No Brasil, Bianchi é Giramondo.`,
+  },
+  {
+    title: "Embarque nessa aventura com a Giramondo.",
+    description: `Celeste é a cor da Bianchi por excelência. Combinada com Passione, expressa a
+                  paixão pela marca Bianchi.No Brasil, Bianchi é Giramondo.`,
+  },
+  {
+    title: "Embarque nessa aventura com a Giramondo.",
+    description: `Celeste é a cor da Bianchi por excelência. Combinada com Passione, expressa a
+                  paixão pela marca Bianchi.No Brasil, Bianchi é Giramondo.`,
+  }
+]
+
+
 const Hero = () => {
+  const [currentSlider, setCurrentSlider] = useState(0);
+
+  useInterval(() => {
+    setCurrentSlider(currentSlider + 1);
+
+    if(currentSlider === 2) {
+      setCurrentSlider(0);
+      return
+    }
+
+  }, 3000);
+
   return (
     <>
       {/* <!-- Hero Area --> */}
-      <div className="position-relative header-background-custom pt-27 pt-lg-32 pb-15 pb-lg-27">
+      <div
+        className={
+          `position-relative header-background-custom-${currentSlider}  pt-27 pt-lg-32 pb-15 pb-lg-27`
+        }
+      >
         <Container>
           <Row className="justify-content-center align-items-center">
             <Col
@@ -23,7 +58,6 @@ const Hero = () => {
                 data-aos-duration="750"
                 data-aos-delay="500"
               >
-                {/* <img className="w-100" src={imgL1Hero} alt="" /> */}
                 <div
                   className="gr-abs-tl gr-z-index-n1"
                   data-aos="zoom-in"
@@ -46,17 +80,17 @@ const Hero = () => {
             >
               <div className="hero-content mt-11 mt-lg-0">
                 <h1 className="title text-white mb-8">
-                  Embarque nessa aventura com a Giramondo.
+                  {slider[currentSlider]?.title}
                 </h1>
                 <p className="text-white mb-11 pr-md-12">
-                  Celeste é a cor da Bianchi por excelência. Combinada com Passione, expressa a
-                  paixão pela marca Bianchi. No Brasil, Bianchi é Giramondo.
+                  {slider[currentSlider]?.description}
                 </p>
               </div>
             </Col>
           </Row>
         </Container>
       </div>
+      
     </>
   );
 };
