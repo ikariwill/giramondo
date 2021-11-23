@@ -37,17 +37,17 @@ const Services = () => {
             >
               <div className="service-card rounded-10 gr-hover-shadow-4 d-flex flex-column text-center pt-15 px-9 pb-11 dark-mode-texts bg-green h-100">
                 <div className="card-img mb-11">
-                  <img width="272px" src={imgC1} alt="..." />
+                  <img width="172px" width="172px" src={imgC1} alt="..." />
                 </div>
                 <h3 className="card-title gr-text-6 mb-6">Espaço Bianchi</h3>
                 <p className="gr-text-9 mb-11">
                   Primeira loja Bianchi do Brasil.
                 </p>
                 <a
-                  href="/"
+                  href="/servicos/espaco-bianchi"
                   className="gr-text-9 btn-link with-icon text-white mt-auto"
                 >
-                  Learn more{" "}
+                  Saiba mais{" "}
                   <i className="icon icon-tail-right font-weight-bold"></i>
                 </a>
               </div>
@@ -61,17 +61,17 @@ const Services = () => {
             >
               <div className="service-card rounded-10 gr-hover-shadow-4 d-flex flex-column text-center pt-15 px-9 pb-11 dark-mode-texts bg-blue h-100">
                 <div className="card-img mb-11">
-                  <img width="272px" src={imgC2} alt="..." />
+                  <img width="172px" width="172px" src={imgC2} alt="..." />
                 </div>
                 <h3 className="card-title gr-text-6 mb-6">Five</h3>
                 <p className="gr-text-9 mb-11">
                   As melhores bikes elétricas italianas.
                 </p>
                 <a
-                  href="/"
+                  href="/servicos/five"
                   className="gr-text-9 btn-link with-icon text-white mt-auto"
                 >
-                  Learn more{" "}
+                  Saiba mais{" "}
                   <i className="icon icon-tail-right font-weight-bold"></i>
                 </a>
               </div>
@@ -85,26 +85,19 @@ const Services = () => {
             >
               <div className="service-card rounded-10 gr-hover-shadow-4 d-flex flex-column text-center pt-15 px-9 pb-11 dark-mode-texts bg-red h-100">
                 <div className="card-img mb-11">
-                  <img width="272px" width="272px" src={imgC3} alt="..." />
+                  <img width="172px" width="172px" src={imgC3} alt="..." />
                 </div>
                 <h3 className="card-title gr-text-6 mb-6">Loja Giramondo</h3>
                 <p className="gr-text-9 mb-11">
                   Uma nova experiência no mundo do ciclismo.
                 </p>
                 <a
-                  href="/"
+                  href="/servicos/loja-giramondo"
                   className="gr-text-9 btn-link with-icon text-white mt-auto"
                 >
-                  Learn more{" "}
+                  Saiba mais{" "}
                   <i className="icon icon-tail-right font-weight-bold"></i>
                 </a>
-              </div>
-              <div
-                className="gr-abs-br-custom gr-z-index-n1"
-                data-aos="zoom-in-right"
-                data-aos-duration="750"
-              >
-                <img src={imgDot} alt="" />
               </div>
             </Col> 
             <Col
@@ -123,10 +116,10 @@ const Services = () => {
                   Oficina digital e com profissionais altamente especializados.
                 </p>
                 <a
-                  href="/"
+                  href="/servicos/oficina-giramondo"
                   className="gr-text-9 btn-link with-icon text-white mt-auto"
                 >
-                  Learn more{" "}
+                  Saiba mais{" "}
                   <i className="icon icon-tail-right font-weight-bold"></i>
                 </a>
               </div>

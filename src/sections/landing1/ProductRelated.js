@@ -1,18 +1,17 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Row, Col, Container, Button } from "react-bootstrap";
-import helmetImage from "../../assets/image/helmet.jpg";
 import bikeImage from "../../assets/image/bike.png";
 
-const whatsappNumber = '5511981065807';
-
-const products = {
-  bikeText: encodeURIComponent('Tenho interesse na categoria bike'),
-  helmetText: encodeURIComponent('Tenho interesse na categoria capacetes'),
-  acessoriesText: encodeURIComponent('Tenho interesse nos acessórios de bike'),
-  rodasText: encodeURIComponent('Tenho interesse em rodas de bike'),
-}
+import GlobalContext from "../../context/GlobalContext";
 
 const ProductRelated = () => {
+  const gContext = useContext(GlobalContext);
+  
+  function showCategory(category) {
+    gContext.toggleVideoModal();
+  }
+
+
   return (
     <>
         <div id="products" className="pt-13 pt-md-25 pb-13 pb-md-25 bg-default-5">
@@ -36,15 +35,11 @@ const ProductRelated = () => {
                       <img width="270px" src={bikeImage} alt="" />
                     </div>
                     <div className="card-btn hover-animation-item">
-                      <a target="_blank"
-                        href={
-                          `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=${products.bikeText}`
-                        }
-                      >
-                        <Button className="btn-hover-translate-none with-icon-left gr-card-box-shadow py-3 px-8">
-                          Contatar vendedor
-                        </Button>
-                      </a>
+                      <Button 
+                        onClick={() => showCategory('bike')}
+                        className="btn-hover-translate-none with-icon-left gr-card-box-shadow py-3 px-8">
+                        Ver mais
+                      </Button>
                     </div>
                   </div>
                   <div className="card-text text-center">
@@ -61,16 +56,11 @@ const ProductRelated = () => {
                     <img src="https://i.imgur.com/HQMM8a5.jpg" alt="" />
                     </div>
                     <div className="card-btn hover-animation-item">
-                    <a 
-                      target="_blank" 
-                      href={
-                          `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=${products.helmetText}`
-                      }
-                    >
-                        <Button className="btn-hover-translate-none with-icon-left gr-card-box-shadow py-3 px-8">
-                          Contatar vendedor
-                        </Button>
-                      </a>
+                    <Button
+                      onClick={() => showCategory('vestuarios')}
+                      className="btn-hover-translate-none with-icon-left gr-card-box-shadow py-3 px-8">
+                      Ver mais
+                    </Button>
                     </div>
                   </div>
                   <div className="card-text text-center">
@@ -88,15 +78,11 @@ const ProductRelated = () => {
                     <img src="https://i.imgur.com/TBcAwvZ.jpg" alt="" />
                     </div>
                     <div className="card-btn hover-animation-item">
-                      <a target="_blank"
-                        href={
-                          `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=${products.acessoriesText}`
-                        }
-                      >
-                        <Button className="btn-hover-translate-none with-icon-left gr-card-box-shadow py-3 px-8">
-                          Contatar vendedor
-                        </Button>
-                      </a>
+                    <Button
+                      onClick={() => showCategory('componentes')}
+                      className="btn-hover-translate-none with-icon-left gr-card-box-shadow py-3 px-8">
+                      Ver mais
+                    </Button>
                     </div>
                   </div>
                   <div className="card-text text-center">
@@ -113,15 +99,11 @@ const ProductRelated = () => {
                     <img src="https://i.imgur.com/Oz1q5Kk.jpg" alt="" />
                     </div>
                     <div className="card-btn hover-animation-item">
-                      <a target="_blank"
-                        href={
-                          `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=${products.rodasText}`
-                        }
-                      >
-                        <Button className="btn-hover-translate-none with-icon-left gr-card-box-shadow py-3 px-8">
-                          Contatar vendedor
-                        </Button>
-                      </a>
+                    <Button
+                      onClick={() => showCategory('acessorios')}
+                      className="btn-hover-translate-none with-icon-left gr-card-box-shadow py-3 px-8">
+                      Ver mais
+                    </Button>
                     </div>
                   </div>
                   <div className="card-text text-center">
@@ -138,15 +120,11 @@ const ProductRelated = () => {
                     <img src="https://i.imgur.com/57uemMl.png" alt="" />
                     </div>
                     <div className="card-btn hover-animation-item">
-                      <a target="_blank"
-                        href={
-                          `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=${products.rodasText}`
-                        }
-                      >
-                        <Button className="btn-hover-translate-none with-icon-left gr-card-box-shadow py-3 px-8">
-                          Contatar vendedor
-                        </Button>
-                      </a>
+                    <Button
+                      onClick={() => showCategory('giramondo')}
+                      className="btn-hover-translate-none with-icon-left gr-card-box-shadow py-3 px-8">
+                      Ver mais
+                    </Button>
                     </div>
                   </div>
                   <div className="card-text text-center">

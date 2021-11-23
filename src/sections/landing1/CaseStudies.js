@@ -7,10 +7,10 @@ import imgC2 from "../../assets/image/l5/jpg/l5-case2.jpg";
 import imgC3 from "../../assets/image/l5/jpg/l5-case3.jpg";
 import imgC4 from "../../assets/image/l5/jpg/l5-case4.jpg";
 
-const CaseStudies = () => (
+const Aventura = () => (
   <>
     {/* <!-- CaseStudies section --> */}
-    <div className="case-section pt-15 pb-14 py-lg-25">
+    <div id="aventura" className="case-section pt-15 pb-14 py-lg-25">
       <Container>
         <Row className="justify-content-center">
           <Col xl="6" lg="7" md="8">
@@ -97,4 +97,4 @@ const CaseStudies = () => (
   </>
 );
 
-export default CaseStudies;
+export default Aventura;

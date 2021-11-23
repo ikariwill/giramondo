@@ -3,9 +3,7 @@ import PageWrapper from "../components/PageWrapper";
 import Hero from "../sections/landing1/Hero";
 import Services from "../sections/landing1/Services";
 import Brand from "../sections/landing2/Brand";
-import Content1 from "../sections/landing1/Content1";
 import Content2 from "../sections/landing2/Content";
-import Fact from "../sections/landing1/Fact";
 import Feature from "../sections/landing1/Feature";
 
 import CaseStudies from "../sections/landing1/CaseStudies";
