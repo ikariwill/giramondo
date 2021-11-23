@@ -11,22 +11,22 @@ const Brands = () => {
             <Col xs="12">
               <div className="brand-logos d-flex justify-content-center justify-content-xl-between align-items-center mx-n9 flex-wrap">
                 <div className="single-brand mx-9 py-6 gr-opacity-8">
-                  <img src={} alt="" className="w-100" />
+                  <img  alt="" className="w-100" />
                 </div>
                 <div className="single-brand mx-9 py-6 gr-opacity-8">
-                  <img src={} alt="" className="w-100" />
+                  <img  alt="" className="w-100" />
                 </div>
                 <div className="single-brand mx-9 py-6 gr-opacity-8">
-                  <img src={} alt="" className="w-100" />
+                  <img  alt="" className="w-100" />
                 </div>
                 <div className="single-brand mx-9 py-6 gr-opacity-8">
-                  <img src={} alt="" className="w-100" />
+                  <img  alt="" className="w-100" />
                 </div>
                 <div className="single-brand mx-9 py-6 gr-opacity-8">
-                  <img src={} alt="" className="w-100" />
+                  <img  alt="" className="w-100" />
                 </div>
                 <div className="single-brand mx-9 py-6 gr-opacity-8">
-                  <img src={} alt="" className="w-100" />
+                  <img  alt="" className="w-100" />
                 </div>
               </div>
             </Col>
