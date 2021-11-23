@@ -33,3 +33,34 @@
     max-width: 150px;
   }
 }
+
+.category {
+  button {
+    height: 40px;
+    min-width: auto;
+
+    + button {
+      margin-left: 20px;
+    }
+  }
+  
+  .bikes {
+
+  }
+
+  .vestuario {
+
+  }
+
+  .giramondo {
+
+  }
+
+  .acessorios {
+
+  }
+
+  .componentes {
+
+  }
+}

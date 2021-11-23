@@ -7,12 +7,12 @@ export const menuItems = [
     name: '#',
     label: 'Loja',
     items: [
-      { name: "Oficina", label: "Oficina" },
-      { name: "Espaço", label: "Espaço" },
-      { name: "Bikes", label: "Bikes" },
-      { name: "Vestuários", label: "Vestuários" },
-      { name: "Componentes", label: "Componentes" },
-      { name: "Acessórios", label: "Acessórios" },
+      { name: "#products", label: "Oficina" },
+      { name: "#products", label: "Espaço" },
+      { name: "#products", label: "Bikes" },
+      { name: "#products", label: "Vestuários" },
+      { name: "#products", label: "Componentes" },
+      { name: "#products", label: "Acessórios" },
     ],
   },  
   // {
