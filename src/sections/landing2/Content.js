@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
-import logoVerticalImage from "../../assets/image/bike2.jpg";
+import logoVerticalImage from "../../assets/image/bike3.jpg";
 
 
 const Content = () => (
