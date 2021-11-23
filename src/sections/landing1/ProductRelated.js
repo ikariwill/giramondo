@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { Row, Col, Container, Button } from "react-bootstrap";
 import bikeImage from "../../assets/image/bike.png";
 
@@ -7,6 +7,13 @@ import GlobalContext from "../../context/GlobalContext";
 const ProductRelated = () => {
   const gContext = useContext(GlobalContext);
   
+
+  const [isActive, setActive] = useState(false);
+
+  const toggleClass = () => {
+    setActive(!isActive);
+  };
+
   function showCategory(category) {
     gContext.toggleVideoModal();
   }
@@ -20,6 +27,24 @@ const ProductRelated = () => {
               <Col lg="12">
                 <div className="section-title text-center">
                   <h2 className="gr-text-5">Nossos produtos</h2>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col lg="12">
+                <div className="category">
+                  <button
+                  onClick={toggleClass}
+                    className="bikes gr-hover-y btn btn-primary"
+                  >
+                      Bikes
+                  </button>
+                <button onClick={toggleClass}  
+                className="vestuario gr-hover-y btn btn-dark">Vestuários</button>
+                <button onClick={toggleClass}  
+                className="componentes gr-hover-y btn btn-dark">Componentes</button>
+                <button onClick={toggleClass}  className="acessorios gr-hover-y btn btn-dark">Acessórios</button>
+                <button onClick={toggleClass}  className="giramondo gr-hover-y btn btn-dark">Linha Giramondo</button>
                 </div>
               </Col>
             </Row>
