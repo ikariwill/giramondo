@@ -160,7 +160,7 @@ const Header = () => {
                                                     </a>
                                                   ) : (
                                                     <Link
-                                                      href={`/${itemInner.name}`}
+                                                      href={`${itemInner.name}`}
                                                     >
                                                       <a>{itemInner.label}</a>
                                                     </Link>
@@ -181,7 +181,7 @@ const Header = () => {
                                               {subItem.label}
                                             </a>
                                           ) : (
-                                            <Link href={`/${subItem.name}`}>
+                                            <Link href={`${subItem.name}`}>
                                               <a>{subItem.label}</a>
                                             </Link>
                                           )}
@@ -204,7 +204,7 @@ const Header = () => {
                                   {label}
                                 </a>
                               ) : (
-                                <Link href={`/${name}`}>
+                                <Link href={`${name}`}>
                                   <a
                                     className="nav-link"
                                     role="button"

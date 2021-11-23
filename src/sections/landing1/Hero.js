@@ -6,19 +6,16 @@ import imgDot from "../../assets/image/l5/png/l5-dot-shape.png";
 
 const slider = [
   {
-    title: "Embarque nessa aventura com a Giramondo.",
-    description: `Celeste é a cor da Bianchi por excelência. Combinada com Passione, expressa a
-                  paixão pela marca Bianchi.No Brasil, Bianchi é Giramondo.`,
+    title: "Venha para uma nova experiência.",
+    description: `Primeiro showroom Bianchi do Brasil.`,
   },
   {
-    title: "Embarque nessa aventura com a Giramondo.",
-    description: `Celeste é a cor da Bianchi por excelência. Combinada com Passione, expressa a
-                  paixão pela marca Bianchi.No Brasil, Bianchi é Giramondo.`,
+    title: "Venha para uma nova experiência.",
+    description: `Primeiro showroom Bianchi do Brasil.`,
   },
   {
-    title: "Embarque nessa aventura com a Giramondo.",
-    description: `Celeste é a cor da Bianchi por excelência. Combinada com Passione, expressa a
-                  paixão pela marca Bianchi.No Brasil, Bianchi é Giramondo.`,
+    title: "Venha para uma nova experiência.",
+    description: `Primeiro showroom Bianchi do Brasil.`,
   }
 ]
 

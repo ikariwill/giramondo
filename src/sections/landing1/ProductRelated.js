@@ -74,7 +74,73 @@ const ProductRelated = () => {
                   </div>
                 </div>
               </Col>
-              <Col xs="4" md="2" lg="4" xl="3" className="mt-12 mt-md-17">
+
+            <Col xs="4" md="2" lg="4" xl="3" className="mt-12 mt-md-17">
+              <div className="product-card gr-product-hover-1">
+                <div className="py-29 w-100 position-relative rounded-10 overflow-hidden">
+                  <div className="card-image bg-gray-2 gr-abs-tl h-100 w-100 gr-flex-all-center">
+                    <img width="270px" src={bikeImage} alt="" />
+                  </div>
+                  <div className="card-btn hover-animation-item">
+                    <Button
+                      onClick={() => showCategory('bike')}
+                      className="btn-hover-translate-none with-icon-left gr-card-box-shadow py-3 px-8">
+                      Ver mais
+                    </Button>
+                  </div>
+                </div>
+                <div className="card-text text-center">
+                  <div className="gr-text-9 mt-8 line-height-reset mb-2">
+                  </div>
+                  <h3 className="gr-text-7">Bikes</h3>
+                </div>
+              </div>
+            </Col>
+
+            <Col xs="4" md="2" lg="4" xl="3" className="mt-12 mt-md-17">
+              <div className="product-card gr-product-hover-1">
+                <div className="py-29 w-100 position-relative rounded-10 overflow-hidden">
+                  <div className="card-image bg-gray-2 gr-abs-tl h-100 w-100 gr-flex-all-center">
+                    <img width="270px" src={bikeImage} alt="" />
+                  </div>
+                  <div className="card-btn hover-animation-item">
+                    <Button
+                      onClick={() => showCategory('bike')}
+                      className="btn-hover-translate-none with-icon-left gr-card-box-shadow py-3 px-8">
+                      Ver mais
+                    </Button>
+                  </div>
+                </div>
+                <div className="card-text text-center">
+                  <div className="gr-text-9 mt-8 line-height-reset mb-2">
+                  </div>
+                  <h3 className="gr-text-7">Bikes</h3>
+                </div>
+              </div>
+            </Col>
+
+            <Col xs="4" md="2" lg="4" xl="3" className="mt-12 mt-md-17">
+              <div className="product-card gr-product-hover-1">
+                <div className="py-29 w-100 position-relative rounded-10 overflow-hidden">
+                  <div className="card-image bg-gray-2 gr-abs-tl h-100 w-100 gr-flex-all-center">
+                    <img width="270px" src={bikeImage} alt="" />
+                  </div>
+                  <div className="card-btn hover-animation-item">
+                    <Button
+                      onClick={() => showCategory('bike')}
+                      className="btn-hover-translate-none with-icon-left gr-card-box-shadow py-3 px-8">
+                      Ver mais
+                    </Button>
+                  </div>
+                </div>
+                <div className="card-text text-center">
+                  <div className="gr-text-9 mt-8 line-height-reset mb-2">
+                  </div>
+                  <h3 className="gr-text-7">Bikes</h3>
+                </div>
+              </div>
+            </Col>
+              {/* <Col xs="4" md="2" lg="4" xl="3" className="mt-12 mt-md-17">
                 <div className="product-card gr-product-hover-1">
                   <div className="py-29 w-100 position-relative rounded-10 overflow-hidden">
                     <div className="card-image bg-gray-2 gr-abs-tl h-100 w-100 gr-flex-all-center">
@@ -158,7 +224,7 @@ const ProductRelated = () => {
                     <h3 className="gr-text-7">Linha Giramondo</h3>
                   </div>
                 </div>
-              </Col>
+              </Col> */}
             </Row>
           </Container>
         </div>

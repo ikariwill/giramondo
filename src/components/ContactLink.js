@@ -1,5 +1,5 @@
-export function ContactLink ({ title, message }) {
-  const whatsappNumber = '5511981065807';
+export function ContactLink({ title = 'Entre em contato', message = 'Entrei em contato pela página da Giramondo, e desejo mais informações.' }) {
+  const whatsappNumber = '5511991399291';
 
   return (
     <a

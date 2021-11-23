@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
+import { ContactLink } from '../../components/ContactLink'
 
 const CTA = () => (
   <>
@@ -14,13 +15,13 @@ const CTA = () => (
                   Gostou de algum produto?
                 </h2>
                 <p className="gr-text-8 gr-color-white-opacity-7 mb-8 mb-lg-0">
-                  Entre em contato com um vendedor.
+                  Entre em contato, ou <a target="_blank" href="https://www.google.com/maps/dir//giramondo+bikes/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x94ce5b3170349d41:0xfdda1d9d5fd0053b?sa=X&ved=2ahUKEwjNga-zla_0AhViyDgGHW-1BLUQ9Rd6BAhbEAQ">venha nos visitar</a>.
                 </p>
               </div>
             </Col>
             <Col lg="4" md="10" className="offset-lg-2">
               <div className="cta-btn text-lg-right">
-                <Button className="gr-hover-y">Entrar em contato</Button>
+                <ContactLink  />
               </div>
             </Col>
           </Row>

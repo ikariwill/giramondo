@@ -17,7 +17,7 @@ const Loja = () => {
               <Col xl="8" lg="9">
                 <div className="px-md-15 text-center">
                   <h2 className="title gr-text-2 mb-8 mb-lg-10">
-                    Loja Bianchi
+                    Espaço Bianchi
                   </h2>
                   <p className="gr-text-7 mb-0 mb-lg-13">Sua experiência na Giramondo</p>
                 </div>
@@ -32,7 +32,7 @@ const Loja = () => {
               <Col xl="8" lg="9">
                 <div className="single-block mb-12 mb-lg-15">
                   <p className="gr-text-9 mb-9">
-                    Fundada por 4 amigos unidos pelo sonho de inaugurar a primeira loja Bianchi e Five no Brasil, está no DNA da Giramondo proporcionar a você uma nova e abrangente experiência em ciclismo.
+                    Fundada por 4 amigos unidos pelo sonho de inaugurar a primeira Espaço Bianchi e Five no Brasil, está no DNA da Giramondo proporcionar a você uma nova e abrangente experiência em ciclismo.
                   </p>
                 </div>
                 <div className="single-block mb-12 mb-lg-15">
