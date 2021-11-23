@@ -20,7 +20,7 @@ const Brands = () => {
                   data-aos="zoom-in-right"
                   data-aos-duration="500"
                 >
-                  <img src={} alt="" className="w-100" />
+                  <img  alt="" className="w-100" />
                 </div>
                 <div
                   className="single-brand mx-9 py-6 gr-opacity-8 gr-hover-opacity-full"
@@ -28,7 +28,7 @@ const Brands = () => {
                   data-aos-duration="500"
                   data-aos-delay="200"
                 >
-                  <img src={} alt="" className="w-100" />
+                  <img  alt="" className="w-100" />
                 </div>
                 <div
                   className="single-brand mx-9 py-6 gr-opacity-8 gr-hover-opacity-full"
@@ -36,7 +36,7 @@ const Brands = () => {
                   data-aos-duration="500"
                   data-aos-delay="400"
                 >
-                  <img src={} alt="" className="w-100" />
+                  <img  alt="" className="w-100" />
                 </div>
                 <div
                   className="single-brand mx-9 py-6 gr-opacity-8 gr-hover-opacity-full"
@@ -44,7 +44,7 @@ const Brands = () => {
                   data-aos-duration="500"
                   data-aos-delay="600"
                 >
-                  <img src={} alt="" className="w-100" />
+                  <img  alt="" className="w-100" />
                 </div>
                 <div
                   className="single-brand mx-9 py-6 gr-opacity-8 gr-hover-opacity-full"
@@ -52,7 +52,7 @@ const Brands = () => {
                   data-aos-duration="800"
                   data-aos-delay="800"
                 >
-                  <img src={} alt="" className="w-100" />
+                  <img  alt="" className="w-100" />
                 </div>
               </div>
             </Col>
