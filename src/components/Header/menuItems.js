@@ -5,14 +5,13 @@ export const menuItems = [
   },  
   {
     name: '#',
-    label: 'Loja',
+    label: 'Produtos',
     items: [
-      { name: "#products", label: "Oficina" },
-      { name: "#products", label: "Espaço" },
-      { name: "#products", label: "Bikes" },
-      { name: "#products", label: "Vestuários" },
-      { name: "#products", label: "Componentes" },
-      { name: "#products", label: "Acessórios" },
+      { name: "#bikes", label: "Bikes" },
+      { name: "#vestuarios", label: "Vestuários" },
+      { name: "#componentes", label: "Componentes" },
+      { name: "#acessorios", label: "Acessórios" },
+      { name: "#giramondo", label: "Linha Giramondo" },
     ],
   },  
   // {
@@ -40,11 +39,12 @@ export const menuItems = [
   //   label: 'Componentes'
   // },
   {
-    name: '#aventura',
-    label: 'Aventura'
+    name: '#aventuras',
+    label: 'Aventuras'
   },
   {
-    name: '#',
-    label: 'Venha nos visitar'
+    name: 'https://www.google.com/maps/dir//giramondo+bikes/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x94ce5b3170349d41:0xfdda1d9d5fd0053b?sa=X&ved=2ahUKEwjNga-zla_0AhViyDgGHW-1BLUQ9Rd6BAhbEAQ',
+    label: 'Venha nos visitar',
+    isExternal: true
   },
 ];

@@ -35,8 +35,13 @@ const Footer = () => {
                 className="footer-logo mb-11"
               />
               <p className="gr-text-11">
-                With lots of unique blocks, you can easily build a page without
-                coding. Build your next landing page.
+                Alameda dos Jurupis, 285 - Moema, São Paulo - SP, 04088-000
+              </p>              
+              <p className="gr-text-11">
+                Whatsapp: 11 9 9139-9291
+              </p>
+              <p className="gr-text-11">
+                Telefone: 11 5051-3023
               </p>
               <ul className="social-icons py-7 list-unstyled mb-7 mb-lg-0">
 
@@ -58,118 +63,9 @@ const Footer = () => {
               </ul>
             </Col>
             <Col lg="8" md="8" className="offset-lg-1">
-              <Row>
-                <Col xs="6" lg="3">
-                  <div className="single-footer mb-13 mb-lg-9">
-                    <p className="footer-title gr-text-11 mb-7">Company</p>
-                    <ul className="footer-list list-unstyled gr-text-9">
-                      <li className="py-2">
-                        <Link href="/">
-                          <a className={linkClassName}>About us</a>
-                        </Link>
-                      </li>
-                      <li className="py-2">
-                        <Link href="/">
-                          <a className={linkClassName}>Contact us</a>
-                        </Link>
-                      </li>
-                      <li className="py-2">
-                        <Link href="/">
-                          <a className={linkClassName}>Careers</a>
-                        </Link>
-                      </li>
-                      <li className="py-2">
-                        <Link href="/">
-                          <a className={linkClassName}>Press</a>
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
-                </Col>
-                <Col xs="6" lg="3">
-                  <div className="single-footer mb-13 mb-lg-9">
-                    <p className="footer-title gr-text-11 mb-7">Product</p>
-                    <ul className="footer-list list-unstyled gr-text-9">
-                      <li className="py-2">
-                        <Link href="/">
-                          <a className={linkClassName}>Features</a>
-                        </Link>
-                      </li>
-                      <li className="py-2">
-                        <Link href="/">
-                          <a className={linkClassName}>Pricing</a>
-                        </Link>
-                      </li>
-                      <li className="py-2">
-                        <Link href="/">
-                          <a className={linkClassName}>News</a>
-                        </Link>
-                      </li>
-                      <li className="py-2">
-                        <Link href="/">
-                          <a className={linkClassName}>Help desk</a>
-                        </Link>
-                      </li>
-                      <li className="py-2">
-                        <Link href="/">
-                          <a className={linkClassName}>Support</a>
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
-                </Col>
-                <Col xs="6" lg="3">
-                  <div className="single-footer mb-13 mb-lg-9">
-                    <p className="footer-title gr-text-11 mb-7">Services</p>
-                    <ul className="footer-list list-unstyled gr-text-9">
-                      <li className="py-2">
-                        <Link href="/">
-                          <a className={linkClassName}>Digital Marketing</a>
-                        </Link>
-                      </li>
-                      <li className="py-2">
-                        <Link href="/">
-                          <a className={linkClassName}>Content Writing</a>
-                        </Link>
-                      </li>
-                      <li className="py-2">
-                        <Link href="/">
-                          <a className={linkClassName}>SEO for Business</a>
-                        </Link>
-                      </li>
-                      <li className="py-2">
-                        <Link href="/">
-                          <a className={linkClassName}>UI Design</a>
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
-                </Col>
-                <Col xs="6" lg="3">
-                  <div className="single-footer mb-13 mb-lg-9">
-                    <p className="footer-title gr-text-11 mb-7">Legal</p>
-                    <ul className="footer-list list-unstyled gr-text-9">
-                      <li className="py-2">
-                        <Link href="/">
-                          <a className={linkClassName}>Privacy Policy</a>
-                        </Link>
-                      </li>
-                      <li className="py-2">
-                        <Link href="/">
-                          <a className={linkClassName}>
-                            Terms &amp; Conditions
-                          </a>
-                        </Link>
-                      </li>
-                      <li className="py-2">
-                        <Link href="/">
-                          <a className={linkClassName}>Return Policy</a>
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
-                </Col>
-              </Row>
+              <a target="_blank" href="https://www.google.com/maps/place/Giramondo+Bicicletas+e+Servi%C3%A7os+Ltda/@-23.6025464,-46.6579552,15z/data=!4m2!3m1!1s0x0:0xfdda1d9d5fd0053b?sa=X&ved=2ahUKEwjNga-zla_0AhViyDgGHW-1BLUQ_BJ6BAhTEAU">
+                <img src="https://i.imgur.com/7uLBCZC.png" alt="Mapa Giramondo" className="mapa" />
+              </a>
             </Col>
           </Row>
         </Container>

@@ -43,24 +43,24 @@
       margin-left: 20px;
     }
   }
-  
-  .bikes {
+}
 
+.main-menu > li > .nav-link {
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+.hero-content {
+  p {
+    font-size: 2rem;
   }
+}
 
-  .vestuario {
-
-  }
-
-  .giramondo {
-
-  }
-
-  .acessorios {
-
-  }
-
-  .componentes {
-
-  }
+.mapa {
+    width: 100%;
+    border: solid 6px #57b5b1;
+    border-radius: 4px;
 }

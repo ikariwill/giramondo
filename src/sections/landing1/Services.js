@@ -37,7 +37,7 @@ const Services = () => {
                 </div>
                 <h3 className="card-title gr-text-6 mb-6">Espaço Bianchi</h3>
                 <p className="gr-text-9 mb-11">
-                  Primeira loja Bianchi do Brasil.
+                  Primeira Espaço Bianchi do Brasil.
                 </p>
                 <a
                   href="/servicos/espaco-bianchi"

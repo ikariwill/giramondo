@@ -32,7 +32,7 @@ const Five = () => {
               <Col xl="8" lg="9">
                 <div className="single-block mb-12 mb-lg-15">
                   <p className="gr-text-9 mb-9">
-                    Fundada por 4 amigos unidos pelo sonho de inaugurar a primeira loja Bianchi e Five no Brasil, está no DNA da Giramondo proporcionar a você uma nova e abrangente experiência em ciclismo.
+                    Fundada por 4 amigos unidos pelo sonho de inaugurar a primeira Espaço Bianchi e Five no Brasil, está no DNA da Giramondo proporcionar a você uma nova e abrangente experiência em ciclismo.
                   </p>
                 </div>
                 <div className="single-block mb-12 mb-lg-15">

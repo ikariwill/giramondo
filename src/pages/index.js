@@ -23,10 +23,38 @@ const IndexPage = () => {
       >
         <Hero />
         <Services />
-        <Content2 />
-        <Brand />
-        <ProductRelated />
-        <Feature />
+        {/* <Content2 /> */}
+        <Brand 
+          id="bikes" 
+          title="Bikes"
+          brands={['five', 'bianchi']}
+        />
+
+        <Brand
+          id="vestuarios"
+          title="Vestuário" 
+          brands={['giramondo']}
+        />
+        <Brand 
+          id="componentes"
+          title="Componentes" 
+          brands={['giramondo']}
+        />
+        <Brand
+          id="acessorios"
+          title="Acessórios"
+          brands={['giramondo']}
+        />
+
+        <Brand
+          id="giramondo"
+          title="Linha Giramondo"
+          brands={['giramondo']}
+        />
+        {/* LOGO GIRAMONDO */}
+
+        {/* <ProductRelated /> */}
+        {/* <Feature /> */}
         <CaseStudies />
         <CTA2 />
       </PageWrapper>

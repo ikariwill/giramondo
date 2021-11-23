@@ -10,7 +10,7 @@ import imgC4 from "../../assets/image/l5/jpg/l5-case4.jpg";
 const Aventura = () => (
   <>
     {/* <!-- CaseStudies section --> */}
-    <div id="aventura" className="case-section pt-15 pb-14 py-lg-25">
+    <div id="aventuras" className="case-section pt-15 pb-14 py-lg-25">
       <Container>
         <Row className="justify-content-center">
           <Col xl="6" lg="7" md="8">
@@ -36,7 +36,7 @@ const Aventura = () => (
                     Trilha
                   </span>
                   <h3 className="case-title gr-text-6 mb-0">
-                    Caminho Real
+                    Caminho dos Anjos
                   </h3>
                 </div>
               </div>
@@ -66,19 +66,7 @@ const Aventura = () => (
                   </h3>
                 </div>
               </div>
-              <div className="single-case d-inline-block px-md-6 mb-3 mb-lg-9 gr-hover-rotate-img">
-                <div className="case-img overflow-hidden">
-                  <img src={imgC4} alt="" className="w-100 rounded-10" />
-                </div>
-                <div className="case-content px-5 px-md-9 py-9">
-                  <span className="case-category gr-text-11 mb-2 d-inline-block gr-text-color-opacity">
-                    Trilha
-                  </span>
-                  <h3 className="case-title gr-text-6 mb-0">
-                    Caminho da fé
-                  </h3>
-                </div>
-              </div>
+
             </div>
           </Col>
         </Row>
