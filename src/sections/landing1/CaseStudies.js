@@ -4,7 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 import imgC1 from "../../assets/image/l5/jpg/l5-case1.jpg";
 import imgC2 from "../../assets/image/l5/jpg/l5-case2.jpg";
-import imgC3 from "../../assets/image/l5/jpg/l5-case3.jpg";
+import imgC3 from "../../assets/image/l5/png/caminho.png";
 import imgC4 from "../../assets/image/l5/jpg/l5-case4.jpg";
 
 const Aventura = () => (
@@ -16,7 +16,7 @@ const Aventura = () => (
           <Col xl="6" lg="7" md="8">
             <div className="section-title text-center mb-11 mb-lg-21">
               <h3 className="sub-badge gr-text-12 text-uppercase text-red mb-7">
-                Case studies
+                Trilhas
               </h3>
               <h2 className="title gr-text-4 mb-0">
                 Aventuras
@@ -33,7 +33,7 @@ const Aventura = () => (
                 </div>
                 <div className="case-content px-5 px-md-9 py-9">
                   <span className="case-category gr-text-11 mb-2 d-inline-block gr-text-color-opacity">
-                    Graphic Design
+                    Trilha
                   </span>
                   <h3 className="case-title gr-text-6 mb-0">
                     Caminho Real
@@ -46,10 +46,10 @@ const Aventura = () => (
                 </div>
                 <div className="case-content px-5 px-md-9 py-9">
                   <span className="case-category gr-text-11 mb-2 d-inline-block gr-text-color-opacity">
-                    Web Development
+                    Trilha
                   </span>
                   <h3 className="case-title gr-text-6 mb-0">
-                    Gradient Website Development
+                    Caminho Real
                   </h3>
                 </div>
               </div>
@@ -59,7 +59,7 @@ const Aventura = () => (
                 </div>
                 <div className="case-content px-5 px-md-9 py-9">
                   <span className="case-category gr-text-11 mb-2 d-inline-block gr-text-color-opacity">
-                    Graphic Design
+                    Trilha
                   </span>
                   <h3 className="case-title gr-text-6 mb-0">
                     Caminho da fé
@@ -72,23 +72,13 @@ const Aventura = () => (
                 </div>
                 <div className="case-content px-5 px-md-9 py-9">
                   <span className="case-category gr-text-11 mb-2 d-inline-block gr-text-color-opacity">
-                    Content Writing
+                    Trilha
                   </span>
                   <h3 className="case-title gr-text-6 mb-0">
-                    Magazine Content Writing
+                    Caminho da fé
                   </h3>
                 </div>
               </div>
-            </div>
-          </Col>
-          <Col lg="7">
-            <div className="more-btn case-btn text-center">
-              <Link href="/">
-                <a className="btn-link with-icon mb-0 gr-text-7 font-weight-bold">
-                  See all works
-                  <i className="icon icon-tail-right font-weight-bold"></i>
-                </a>
-              </Link>
             </div>
           </Col>
         </Row>

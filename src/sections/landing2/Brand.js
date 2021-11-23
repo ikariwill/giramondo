@@ -4,9 +4,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import imgB1 from "../../assets/image/l4/png/l4-brand1.png";
 import imgB2 from "../../assets/image/l4/png/l4-brand2.png";
 import imgB3 from "../../assets/image/l4/png/l4-brand3.png";
-import imgB4 from "../../assets/image/l4/png/l4-brand4.png";
-import imgB5 from "../../assets/image/l4/png/l4-brand5.png";
-import imgB6 from "../../assets/image/l4/png/l4-brand6.png";
 
 const Brand = () => (
   <>
@@ -17,10 +14,6 @@ const Brand = () => (
           <Col md="10" lg="9" xl="8">
             <div className="section-title text-center mb-7 mb-lg-11">
               <h2 className="title gr-text-4 mb-9">Marcas</h2>
-              <p className="gr-text-8 px-lg-8 mb-0">
-                With lots of unique blocks, you can easily build a page without
-                coding.
-              </p>
             </div>
           </Col>
           <Col xs="12" md="11" lg="10" xl="9">
@@ -30,7 +23,7 @@ const Brand = () => (
                 data-aos="zoom-in-right"
                 data-aos-duration="500"
               >
-                <img src={imgB1} alt="" className="w-100" />
+                <img  src={imgB1} alt="" className="w-100" />
               </div>
               <div
                 className="single-brand mx-9 py-7 gr-opacity-8"
@@ -44,28 +37,7 @@ const Brand = () => (
                 data-aos="zoom-in-right"
                 data-aos-duration="900"
               >
-                <img src={imgB3} alt="" className="w-100" />
-              </div>
-              <div
-                className="single-brand mx-9 py-7 gr-opacity-8"
-                data-aos="zoom-in-right"
-                data-aos-duration="1100"
-              >
-                <img src={imgB4} alt="" className="w-100" />
-              </div>
-              <div
-                className="single-brand mx-9 py-7 gr-opacity-8"
-                data-aos="zoom-in-right"
-                data-aos-duration="1300"
-              >
-                <img src={imgB5} alt="" className="w-100" />
-              </div>
-              <div
-                className="single-brand mx-9 py-7 gr-opacity-8"
-                data-aos="zoom-in-right"
-                data-aos-duration="1500"
-              >
-                <img src={imgB6} alt="" className="w-100" />
+                <img  src={imgB3} alt="" className="w-100" />
               </div>
             </div>
           </Col>
