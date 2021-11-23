@@ -15,10 +15,6 @@ const Content = () => (
               <h2 className="title gr-text-4 mb-6">
                 Encontre o produto em 3 passos
               </h2>
-              <p className="gr-text-8 px-lg-7 px-xl-0">
-                With lots of unique blocks, you can easily build a page without
-                coding. Build your next landing page.
-              </p>
             </div>
           </div>
         </Row>
