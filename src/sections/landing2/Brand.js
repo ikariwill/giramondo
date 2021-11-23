@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
-const Brand = ({id, title, brands}) => (
+const Brand = ({id, title, brands = []}) => (
   <>
     {/* <!-- Brand section --> */}
     <div id={id} className="brand-section pt-11 pb-9  pb-lg-24 bg-default-6 ">
