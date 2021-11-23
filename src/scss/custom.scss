@@ -64,3 +64,9 @@ h1 {
     border: solid 6px #57b5b1;
     border-radius: 4px;
 }
+
+@media (min-width: 992px) {
+  .pt-lg-32, .py-lg-32 {
+      padding-top: 14.25rem!important
+  }
+}
