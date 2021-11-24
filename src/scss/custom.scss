@@ -46,7 +46,7 @@
 }
 
 .main-menu > li > .nav-link {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 h1 {
@@ -70,4 +70,22 @@ h1 {
   .pt-lg-32, .py-lg-32 {
       padding-top: 14.25rem!important
   }
+}
+
+.flex-menu.container {
+    display: flex;
+    justify-content: center;
+}
+
+.bg-blackish-blue {
+    background-color: #1e2947!important;
+}
+
+.btn {
+  border-radius: 0!important;
+}
+
+.custom-footer-h2 {
+      font-weight: 100;
+    font-size: 1.5rem;
 }

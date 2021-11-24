@@ -85,7 +85,7 @@ const Header = () => {
       >
         <Container
           fluid={gContext.header.isFluid}
-          className={gContext.header.isFluid ? "pr-lg-9 pl-lg-9" : ""}
+          className={gContext.header.isFluid ? "pr-lg-9 pl-lg-9 flex-menu" : "flex-menu"}
         >
           <nav className="navbar site-navbar offcanvas-active navbar-expand-lg px-0">
             {/* <!-- Brand Logo--> */}

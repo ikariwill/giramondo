@@ -31,6 +31,7 @@ const Footer = () => {
           <Row className="justify-content-center">
             <Col lg="3" md="4">
               <Logo
+              alternative
                 white={gContext.footer.theme === "light"}
                 className="footer-logo mb-11"
               />
