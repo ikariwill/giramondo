@@ -3,11 +3,8 @@ import PageWrapper from "../components/PageWrapper";
 import Hero from "../sections/landing1/Hero";
 import Services from "../sections/landing1/Services";
 import Brand from "../sections/landing2/Brand";
-import Content2 from "../sections/landing2/Content";
-import Feature from "../sections/landing1/Feature";
 
 import CaseStudies from "../sections/landing1/CaseStudies";
-import ProductRelated from "../sections/landing1/ProductRelated";
 import CTA2 from "../sections/landing1/CTA2";
 
 const IndexPage = () => {
@@ -23,7 +20,6 @@ const IndexPage = () => {
       >
         <Hero />
         <Services />
-        {/* <Content2 /> */}
         <Brand 
           id="bikes" 
           title="Bikes"
@@ -51,10 +47,7 @@ const IndexPage = () => {
           title="Linha Giramondo"
           brands={['giramondo']}
         />
-        {/* LOGO GIRAMONDO */}
 
-        {/* <ProductRelated /> */}
-        {/* <Feature /> */}
         <CaseStudies />
         <CTA2 />
       </PageWrapper>
