@@ -220,6 +220,16 @@ const Header = () => {
                       );
                     }
                   )}
+                  <li class="nav-item">
+                    <a class="nav-link" href="/">
+                      <i class="icon icon-logo-facebook"></i>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/">
+                      <i class="icon icon-instant-camera-2"></i>
+                    </a>
+                  </li>
                 </ul>
               </div>
             </div>
