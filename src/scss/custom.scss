@@ -86,6 +86,35 @@ h1 {
 }
 
 .custom-footer-h2 {
-      font-weight: 100;
+    font-weight: 100;
     font-size: 1.5rem;
+}
+
+.border-right-custom {
+  border-right: solid 1px #1e2947;
+}
+
+.custom-mt {
+  margin-top: -7px!important;
+}
+
+.five-img {
+  height: 35px!important;
+}
+
+.five-video {
+  display: flex;
+  justify-content: center;
+
+  iframe {
+    margin-right: 30px;
+  }
+}
+
+.description-five {
+  width: 40%;
+}
+
+.five-logo-info {
+  width: 190px;
 }

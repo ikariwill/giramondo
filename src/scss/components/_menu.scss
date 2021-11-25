@@ -64,6 +64,32 @@
       }
     }
   }
+
+    &>li{
+    &>.nav-link-dark{
+      color: #000!important;
+      font-size: 15px;
+      font-weight: 700;
+      @include desktops{
+        padding-top: 18px!important;
+        padding-bottom: 18px!important;
+        padding-left: 18px!important;
+        padding-right: 18px!important;
+      }
+      &:hover{
+        color: $primary!important;
+      }
+     
+    }
+    &:hover{
+      &>.gr-toggle-arrow{
+        
+        i{
+          transform: rotate(-180deg);
+        }
+      }
+    }
+  }
 }
 
 

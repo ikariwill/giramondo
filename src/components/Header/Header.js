@@ -31,7 +31,7 @@ const SiteHeader = styled.header`
       box-shadow: 0 12px 34px -11px rgba(65, 62, 101, 0.1);
       z-index: 9999;
       background: ${({ dark, theme }) =>
-        dark ? theme.colors.heading : theme.colors.light};
+        dark ? theme.colors.heading : theme.colors.dark};
     }
   }
 `;
@@ -106,7 +106,7 @@ const Header = () => {
                           {hasSubItems ? (
                             <li className="nav-item dropdown" {...rest}>
                               <a
-                                className="nav-link dropdown-toggle gr-toggle-arrow"
+                                className={`nav-link dropdown-toggle gr-toggle-arrow ${gContext.header.theme === "light" ? 'nav-link-dark' : ''}`}
                                 role="button"
                                 data-toggle="dropdown"
                                 aria-haspopup="true"
@@ -196,7 +196,7 @@ const Header = () => {
                             <li className="nav-item" {...rest}>
                               {isExternal ? (
                                 <a
-                                  className="nav-link"
+                                  className={`nav-link ${gContext.header.theme === "light" ? 'nav-link-dark' : ''}`}
                                   href={`${name}`}
                                   target="_blank"
                                   rel="noopener noreferrer"
@@ -206,7 +206,7 @@ const Header = () => {
                               ) : (
                                 <Link href={`${name}`}>
                                   <a
-                                    className="nav-link"
+                                    className={`nav-link ${gContext.header.theme === "light" ? 'nav-link-dark' : ''}`}
                                     role="button"
                                     aria-expanded="false"
                                   >
@@ -221,12 +221,12 @@ const Header = () => {
                     }
                   )}
                   <li class="nav-item">
-                    <a class="nav-link" href="/">
+                    <a className={`nav-link ${gContext.header.theme === "light" ? 'nav-link-dark' : ''}`} href="/">
                       <i class="icon icon-logo-facebook"></i>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="/">
+                    <a className={`nav-link ${gContext.header.theme === "light" ? 'nav-link-dark' : ''}`} href="/">
                       <i class="icon icon-instant-camera-2"></i>
                     </a>
                   </li>

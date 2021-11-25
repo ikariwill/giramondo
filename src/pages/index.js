@@ -23,29 +23,50 @@ const IndexPage = () => {
         <Brand 
           id="bikes" 
           title="Bikes"
-          brands={['five', 'bianchi']}
+          brands={[
+            {
+              name: 'bianchi',
+              url: 'https://www.bianchi.com/?store=global'
+            },
+            {
+              name: 'five',
+              url: '/servicos/five-bikes'
+            }
+        ]}
         />
 
         <Brand
           id="vestuarios"
           title="Vestuário" 
-          brands={['giramondo']}
+          brands={[{
+                name: 'giramondo',
+                url: '/'
+          }]}
         />
         <Brand 
           id="componentes"
           title="Componentes" 
-          brands={['giramondo']}
+          brands={[{
+                name: 'giramondo',
+                url: '/'
+          }]}
         />
         <Brand
           id="acessorios"
           title="Acessórios"
-          brands={['giramondo']}
+          brands={[{
+                name: 'giramondo',
+                url: '/'
+          }]}
         />
 
         <Brand
           id="giramondo"
           title="Linha Giramondo"
-          brands={['giramondo']}
+          brands={[{
+                name: 'giramondo',
+                url: '/'
+          }]}
         />
 
         <CaseStudies />
