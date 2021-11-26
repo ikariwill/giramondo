@@ -229,7 +229,6 @@ const Header = () => {
                   </li>
                   <li className="nav-item">
                     <a 
-                      tar
                       className={`nav-link ${gContext.header.theme === "light" ? 'nav-link-dark' : ''}`} 
                       href="https://www.instagram.com/giramondo.bikeshop">
                       <i className="icon icon-instant-camera-2"></i>
