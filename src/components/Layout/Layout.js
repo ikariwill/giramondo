@@ -118,7 +118,7 @@ const Layout = ({ children, pageContext }) => {
         <div data-theme-mode-panel-active data-theme="light">
           <GlobalStyle />
           <Head>
-            <title>Giramondo</title>
+            <title>GIRAMONDO BIKE SHOP</title>
             <link rel="icon" type="image/png" href={imgFavicon} />
           </Head>
           <Loader id="loading" className={visibleLoader ? "" : "inActive"} />
