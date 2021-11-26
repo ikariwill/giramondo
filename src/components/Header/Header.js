@@ -220,19 +220,19 @@ const Header = () => {
                       );
                     }
                   )}
-                  <li class="nav-item">
+                  <li className="nav-item">
                     <a className={`nav-link ${gContext.header.theme === "light" ? 'nav-link-dark' : ''}`} 
                       href="https://www.facebook.com/giramondo.bikeshop.sp"
                     >
-                      <i class="icon icon-logo-facebook"></i>
+                      <i className="icon icon-logo-facebook"></i>
                     </a>
                   </li>
-                  <li class="nav-item">
+                  <li className="nav-item">
                     <a 
                       tar
                       className={`nav-link ${gContext.header.theme === "light" ? 'nav-link-dark' : ''}`} 
                       href="https://www.instagram.com/giramondo.bikeshop">
-                      <i class="icon icon-instant-camera-2"></i>
+                      <i className="icon icon-instant-camera-2"></i>
                     </a>
                   </li>
                 </ul>

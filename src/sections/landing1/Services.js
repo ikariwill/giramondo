@@ -18,7 +18,7 @@ const Services = () => {
               data-aos="fade-right"
               data-aos-duration="750"
             >
-              <div onClick={() => window.location.href = "/servicos/espaco-bianchi"} className="service-card gr-hover-shadow-4 d-flex flex-column text-center pt-15 px-9 pb-11 h-100">
+              <div onClick={() => window.location.href = "/produtos/bianchi"} className="service-card gr-hover-shadow-4 d-flex flex-column text-center pt-15 px-9 pb-11 h-100">
                 <div className="card-img mb-11">
                   <img width="172px" src="/static/assets/bianchi.png" alt="Bianchi" />
                 </div>

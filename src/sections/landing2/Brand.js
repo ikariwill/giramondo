@@ -20,6 +20,7 @@ const Brand = ({id, title, brands = []}) => (
                   className="single-brand mx-9 py-7 gr-opacity-8"
                   data-aos="zoom-in-right"
                   data-aos-duration="500"
+                  key={brand.name}
                 >
                    {
                     brand.url && (
