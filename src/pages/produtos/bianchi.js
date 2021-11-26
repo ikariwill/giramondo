@@ -1,9 +1,9 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import PageWrapper from "../../components/PageWrapper";
-import { ContactLink } from '../../components/ContactLink'
+import { ContactLink} from '../../components/ContactLink'
 
-const Five = () => {
+const Bianchi = () => {
   return (
     <>
       <PageWrapper
@@ -17,7 +17,7 @@ const Five = () => {
               <Col xl="8" lg="9">
                 <div className="px-md-15 text-center">
                   <h2 className="title gr-text-2 mb-8 mb-lg-10">
-                    Five
+                    Espaço Bianchi
                   </h2>
                   <p className="gr-text-7 mb-0 mb-lg-13">Sua experiência na Giramondo</p>
                 </div>
@@ -62,9 +62,9 @@ const Five = () => {
                     </ul>
                   </p>
                 </div>
-
+        
                 <div className="single-block mb-12 mb-lg-15">
-                  <ContactLink
+                  <ContactLink 
                     title="Entre em contato com um vendedor"
                     message="Entrei em contato pela página do espaço bianchi, e desejo mais informações."
                   />
@@ -77,4 +77,4 @@ const Five = () => {
     </>
   );
 };
-export default Five;
+export default Bianchi;

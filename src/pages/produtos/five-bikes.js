@@ -48,8 +48,16 @@ const Five = () => {
                     </div>
                   </div>
                   <p>
-                  A FIVE possui, atualmente, 4 marcas registradas no grupo – Wayel, Italwin, Today Sunshine e Lockbike – além de projetos e criações não somente de e-bikes, mas também de veículos leves, concedo e ampliando toda a tecnologia, conforto e agilidade para seus usuários.
-                </p>
+                    A FIVE possui, atualmente, 4 marcas registradas no grupo – Wayel, Italwin, Today Sunshine e Lockbike – além de projetos e criações não somente de e-bikes, mas também de veículos leves, concedo e ampliando toda a tecnologia, conforto e agilidade para seus usuários.
+                  </p>
+                </div>
+                <div className="five-brands">
+                  <a href="https://www.italwin.it/pt-br/">
+                    <img
+                      src={`/static/assets/logo-italwin.jpg`}
+                      alt="Logo Italwin"
+                    />
+                  </a>
                 </div>
               </Col>
             </Row>

@@ -61,7 +61,6 @@ h1 {
 
 .mapa {
     width: 100%;
-    border: solid 6px #57b5b1;
     border-radius: 4px;
     margin-bottom: 1rem;
 }
@@ -117,4 +116,13 @@ h1 {
 
 .five-logo-info {
   width: 190px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.five-brands {
+  display: flex;
+  justify-content: center;
 }

@@ -30,7 +30,7 @@ const IndexPage = () => {
             },
             {
               name: 'five',
-              url: '/servicos/five-bikes'
+              url: '/produtos/five-bikes'
             }
         ]}
         />

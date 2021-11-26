@@ -31,7 +31,7 @@ const SiteHeader = styled.header`
       box-shadow: 0 12px 34px -11px rgba(65, 62, 101, 0.1);
       z-index: 9999;
       background: ${({ dark, theme }) =>
-        dark ? theme.colors.heading : theme.colors.dark};
+        dark ? theme.colors.heading : theme.colors.light};
     }
   }
 `;

@@ -1,10 +1,6 @@
 export const menuItems = [
   {
     name: '#',
-    label: 'INÍCIO'
-  },  
-  {
-    name: '#',
     label: 'PRODUTOS',
     items: [
       { name: "#bikes", label: "BIKES" },

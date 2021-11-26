@@ -1,7 +1,10 @@
 import React from "react";
+import { useRouter } from 'next/router'
 import { Container, Row, Col } from "react-bootstrap";
 
 const Services = () => {
+  const router = useRouter()
+
   return (
     <>
       {/* <!--Service section  -->*/}
@@ -11,11 +14,11 @@ const Services = () => {
             <Col
               md="6"
               lg="3"
-              className="mb-9 mb-lg-0 border-right-custom"
+              className="mb-9 mb-lg-0 border-right-custom cursor-pointer"
               data-aos="fade-right"
               data-aos-duration="750"
             >
-              <div className="service-card gr-hover-shadow-4 d-flex flex-column text-center pt-15 px-9 pb-11 h-100">
+              <div onClick={() => window.location.href = "/servicos/espaco-bianchi"} className="service-card gr-hover-shadow-4 d-flex flex-column text-center pt-15 px-9 pb-11 h-100">
                 <div className="card-img mb-11">
                   <img width="172px" src="/static/assets/bianchi.png" alt="Bianchi" />
                 </div>
@@ -32,11 +35,11 @@ const Services = () => {
             <Col
               md="6"
               lg="3"
-              className="mb-9 mb-lg-0 border-right-custom"
+              className="mb-9 mb-lg-0 border-right-custom cursor-pointer"
               data-aos="fade-up"
               data-aos-duration="750"
             >
-              <div className="service-card gr-hover-shadow-4 d-flex flex-column text-center pt-15 px-9 pb-11 h-100">
+              <div onClick={() => window.location.href = "/produtos/five-bikes"} className="service-card gr-hover-shadow-4 d-flex flex-column text-center pt-15 px-9 pb-11 h-100">
                 <div className="card-img mb-11">
                   <img width="120px" src="/static/assets/five.png"  alt="Five" />
                 </div>
@@ -53,11 +56,14 @@ const Services = () => {
             <Col
               md="6"
               lg="3"
-              className="mb-9 mb-lg-0 border-right-custom"
+              className="mb-9 mb-lg-0 border-right-custom cursor-pointer"
               data-aos="fade-left"
               data-aos-duration="750"
             >
-              <div className="service-card gr-hover-shadow-4 d-flex flex-column text-center pt-10 px-9 pb-11 h-100">
+              <div 
+                onClick={() => window.location.href = "/servicos/loja-giramondo"}
+                className="service-card gr-hover-shadow-4 d-flex flex-column text-center pt-10 px-9 pb-11 h-100"
+              >
                 <div className="card-img mb-11">
                   <img width="120px" src="/static/assets/loja.png" alt="Loja Giramondo" />
                 </div>
@@ -76,11 +82,11 @@ const Services = () => {
             <Col
               md="6"
               lg="3"
-              className="mb-9 mb-lg-0"
+              className="mb-9 mb-lg-0 cursor-pointer"
               data-aos="fade-left"
               data-aos-duration="750"
             >
-              <div className="service-card gr-hover-shadow-4 d-flex flex-column text-center pt-8 px-9 pb-11 h-100">
+              <div onClick={() => window.location.href = "/servicos/oficina-giramondo"} className="service-card gr-hover-shadow-4 d-flex flex-column text-center pt-8 px-9 pb-11 h-100">
                 <div className="card-img mb-11">
                   <img width="120px" src="/static/assets/oficina.png" alt="Oficina Giramondo" />
                 </div>
