@@ -26,11 +26,13 @@ const IndexPage = () => {
           brands={[
             {
               name: 'bianchi',
-              url: 'https://www.bianchi.com/?store=global'
+              url: '/produtos/bianchi',
+              src: 'bianchi.png',
             },
             {
               name: 'five',
-              url: '/produtos/five-bikes'
+              url: '/produtos/five-bikes',
+              src: 'five.png',
             }
         ]}
         />
@@ -38,38 +40,102 @@ const IndexPage = () => {
         <Brand
           id="vestuarios"
           title="Vestuário" 
-          brands={[{
-                name: 'giramondo',
-                url: '/'
-          }]}
+          brands={[
+            {
+              name: 'giramondo',
+              src: 'giramondo.png',
+            },
+            {
+              name: 'bianchi',
+              src: 'bianchi.png'
+            },
+            {
+              name: 'giro',
+              src: 'giro.jpg'
+            },
+            {
+              name: 'cemporcento',
+              src: 'cemporcento.jpg'
+            },
+            {
+              name: 'sidi',
+              src: 'sidi.jpg'
+            },
+            {
+              name: 'mauro-ribeiro',
+              src: 'mauro-ribeiro.jpg'
+            },
+            {
+              name: 'campagnolo',
+              src: 'campagnolo.png'
+            },
+            {
+              name: 'castelli',
+              src: 'castelli.jpg'
+            }
+        ]}
         />
         <Brand 
           id="componentes"
           title="Componentes" 
-          brands={[{
-                name: 'giramondo',
-                url: '/'
-          }]}
+          brands={[
+            {
+              name: 'campagnolo',
+              src: 'campagnolo.png'
+            },
+            {
+              name: 'shimano',
+              src: 'shimano.jpg',
+            },
+            {
+              name: 'sram',
+              src: 'sram.jpg'
+            },
+            {
+              name: 'continental',
+              src: 'continental.jpg',
+            },
+            {
+              name: 'kenda',
+              src: 'kenda.jpg',
+            },
+            //{ deixar continental e kenda juntos}
+
+          ]}
         />
         <Brand
           id="acessorios"
           title="Acessórios"
-          brands={[{
-                name: 'giramondo',
-                url: '/'
-          }]}
+          brands={[
+            {
+              name: 'elite',
+              src: 'elite.jpg',
+            },
+
+            {
+              name: 'garmin',
+              src: 'garmin.jpg',
+            },
+            {
+              name: 'look',
+              src: 'look.jpg',
+            },
+
+            {
+              name: 'topeak',
+              src: 'topeak.jpg',
+            },
+
+            {
+              name: 'parktool',
+              src: 'parktool.jpg',
+            },
+            
+        
+        ]}
         />
 
-        <Brand
-          id="giramondo"
-          title="Linha Giramondo"
-          brands={[{
-                name: 'giramondo',
-                url: '/'
-          }]}
-        />
-
-        <CaseStudies />
+        {/* <CaseStudies /> */}
         <CTA2 />
       </PageWrapper>
     </>

@@ -21,13 +21,24 @@ const Brand = ({id, title, brands = []}) => (
                   data-aos="zoom-in-right"
                   data-aos-duration="500"
                 >
-                  <a href={brand.url}>
-                    <img
-                      src={`/static/assets/${brand.name}.png`} 
-                      alt="" 
-                      className={`${brand.name === 'five' ? 'five-img w100' : 'w100'}`}
-                    />
-                  </a>
+                   {
+                    brand.url && (
+                      <a href={brand.url}>
+                        <img
+                          src={`/static/assets/${brand.src}`} 
+                          alt="" 
+                          className={`${brand.name === 'five' ? 'five-img w100' : 'w100'}`}
+                        />
+                      </a>
+                      
+                  ) || (
+                      <img
+                        src={`/static/assets/${brand.src}`}
+                        alt=""
+                        className={`${brand.name === 'five' ? 'five-img w100' : 'w100'}`}
+                      />
+
+                  )}
                 </div>
             ))
           }

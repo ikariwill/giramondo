@@ -16,6 +16,10 @@ const slider = [
   {
     title: "Venha para uma nova experiência.",
     description: `Primeiro showroom Bianchi do Brasil.`,
+  },
+  {
+    title: "Venha para uma nova experiência.",
+    description: `Primeiro showroom Bianchi do Brasil.`,
   }
 ]
 

@@ -71,6 +71,11 @@ const Bianchi = () => {
                 </div>
               </Col>
             </Row>
+            <Row className="justify-content-center">
+              <Col xl="8" lg="9">
+                <img src="/static/assets/espaco-bianchi.jpg" alt="" srcset="" />
+              </Col>
+            </Row>
           </Container>
         </div>
       </PageWrapper>

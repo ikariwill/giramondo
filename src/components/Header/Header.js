@@ -221,12 +221,17 @@ const Header = () => {
                     }
                   )}
                   <li class="nav-item">
-                    <a className={`nav-link ${gContext.header.theme === "light" ? 'nav-link-dark' : ''}`} href="/">
+                    <a className={`nav-link ${gContext.header.theme === "light" ? 'nav-link-dark' : ''}`} 
+                      href="https://www.facebook.com/giramondo.bikeshop.sp"
+                    >
                       <i class="icon icon-logo-facebook"></i>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a className={`nav-link ${gContext.header.theme === "light" ? 'nav-link-dark' : ''}`} href="/">
+                    <a 
+                      tar
+                      className={`nav-link ${gContext.header.theme === "light" ? 'nav-link-dark' : ''}`} 
+                      href="https://www.instagram.com/giramondo.bikeshop">
                       <i class="icon icon-instant-camera-2"></i>
                     </a>
                   </li>
