@@ -127,7 +127,7 @@ const MenuItem = ({
               {label}
             </a>
           ) : (
-            <Link href={`/${name}`}>
+            <Link href={`${name}`}>
               <a
                 onClick={() => {
                   if (gContext.visibleOffCanvas) {

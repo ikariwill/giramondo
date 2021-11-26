@@ -3,11 +3,11 @@ export const menuItems = [
     name: '#',
     label: 'PRODUTOS',
     items: [
-      { name: "#bikes", label: "BIKES" },
-      { name: "#vestuarios", label: "VESTUÁRIOS" },
-      { name: "#componentes", label: "COMPONENTES" },
-      { name: "#acessorios", label: "ACESSÓRIOS" },
-      { name: "#giramondo", label: "LINHA GIRAMONDO" },
+      { name: "/#bikes", label: "BIKES" },
+      { name: "/#vestuarios", label: "VESTUÁRIOS" },
+      { name: "/#componentes", label: "COMPONENTES" },
+      { name: "/#acessorios", label: "ACESSÓRIOS" },
+      { name: "/#giramondo", label: "LINHA GIRAMONDO" },
     ],
   },  
   // {
