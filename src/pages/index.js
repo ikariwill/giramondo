@@ -20,7 +20,7 @@ const IndexPage = () => {
       >
         <Hero />
         <Services />
-        <Brand 
+        {/* <Brand 
           id="bikes" 
           title="Bikes"
           brands={[
@@ -35,7 +35,7 @@ const IndexPage = () => {
               src: 'five.png',
             }
         ]}
-        />
+        /> */}
 
         <Brand
           id="vestuarios"

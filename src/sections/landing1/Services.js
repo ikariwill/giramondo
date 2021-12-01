@@ -8,7 +8,7 @@ const Services = () => {
   return (
     <>
       {/* <!--Service section  -->*/}
-      <div className="service-section bg-default-4 pt-15 pb-13 py-lg-25">
+      <div id="bikes" className="service-section bg-default-4 pt-15 pb-13 py-lg-25">
         <Container>
           <Row className="justify-content-center position-relative gr-z-index-1">
             <Col

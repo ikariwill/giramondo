@@ -30,7 +30,7 @@ const Hero = () => {
   useInterval(() => {
     setCurrentSlider(currentSlider + 1);
 
-    if(currentSlider === 2) {
+    if(currentSlider === 0) {
       setCurrentSlider(0);
       return
     }
