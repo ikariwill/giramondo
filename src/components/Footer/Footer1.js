@@ -35,10 +35,13 @@ const Footer = () => {
                 white={gContext.footer.theme === "light"}
                 className="footer-logo mb-11"
               />
+              <p>
+                Atendimento: seg a sex 9h as 18h, sábado 10h as 15h
+              </p>
               <p className="gr-text-11">
                 Alameda dos Jurupis, 285 - Moema, São Paulo - SP, 04088-000
               </p>              
-              <p className="gr-text-11">
+              <p className="gr-text-11 mb-0">
                 Whatsapp: 11 9 9139-9291
               </p>
               <p className="gr-text-11">
