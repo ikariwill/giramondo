@@ -5,9 +5,9 @@ export const menuItems = [
     label: 'PRODUTOS',
     items: [
       { name: "/#bikes", label: "BIKES" },
-      { name: "/#vestuarios", label: "VESTUÁRIOS" },
-      { name: "/#componentes", label: "COMPONENTES" },
-      { name: "/#acessorios", label: "ACESSÓRIOS" },
+      { name: "/servicos/loja-giramondo/#vestuarios", label: "VESTUÁRIOS" },
+      { name: "/servicos/loja-giramondo/#componentes", label: "COMPONENTES" },
+      { name: "/servicos/loja-giramondo/#acessorios", label: "ACESSÓRIOS" },
     ],
   },  
   { name: "/servicos/oficina-giramondo", label: "OFICINA" },
