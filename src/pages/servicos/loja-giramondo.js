@@ -33,7 +33,7 @@ const Loja = () => {
 
         <div className="main-block pb-6 pb-lg-17 bg-default-6">
           <Container>
-            <Row className="justify-content-center flex-column">
+            <Row className="justify-content-center flex-column align-items-center">
               <Col class="custom-col" xl="8" lg="9">
                 <p>Tudo para o Ciclista</p>
                 <p>#Andar superior - escrever texto#</p>
