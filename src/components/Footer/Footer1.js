@@ -47,18 +47,18 @@ const Footer = () => {
               <ul className="social-icons py-7 list-unstyled mb-7 mb-lg-0">
 
                 <li className="mr-2">
-                  <Link href="/">
+                  <a href="https://www.facebook.com/giramondo.bikeshop.sp">
                     <a className={iconClassName}>
                       <i className="icon icon-logo-facebook"></i>
                     </a>
-                  </Link>
+                  </a>
                 </li>
                 <li className="mr-2">
-                  <Link href="/">
+                  <a href="https://www.instagram.com/giramondo.bikeshop">
                     <a className={iconClassName}>
                       <i className="icon icon-instant-camera-2"></i>
                     </a>
-                  </Link>
+                  </a>
                 </li>
                 
               </ul>
