@@ -33,25 +33,31 @@ const Giramondo = () => {
           <Container>
 
             <Row className="justify-content-center direction-column">
-              <img
-                className="bianchi-brands-img"
-                src={`/static/assets/oficina2.jpg`}
-                alt="Logo Italwin"
-              />
+              <Col class="custom-col" xl="8" lg="9">
+                <img
+                  className="bianchi-brands-img"
+                  src={`/static/assets/oficina2.jpg`}
+                  alt="Logo Italwin"
+                />
+              </Col>
             </Row>
             <Row className="justify-content-center direction-column">
-              <img
-                className="bianchi-brands-img"
-                src={`/static/assets/oficina3.jpg`}
-                alt="Logo Italwin"
-              />
+              <Col class="custom-col" xl="8" lg="9">
+                <img
+                  className="bianchi-brands-img"
+                  src={`/static/assets/oficina3.jpg`}
+                  alt="Logo Italwin"
+                />
+              </Col>
             </Row>
             <Row className="justify-content-center direction-column">
-              <img
-                className="bianchi-brands-img"
-                src={`/static/assets/oficina.jpeg`}
-                alt="Logo Shimano"
-              />
+              <Col class="custom-col" xl="8" lg="9">
+                <img
+                  className="bianchi-brands-img"
+                  src={`/static/assets/oficina.jpeg`}
+                  alt="Logo Shimano"
+                />
+              </Col>
             </Row>
             <Row className="justify-content-center direction-column">
               <Col xl="8" lg="9">
@@ -65,6 +71,7 @@ const Giramondo = () => {
               </Col>
             </Row>
             <Row className="justify-content-center direction-column mb-10">
+              <Col class="custom-col" xl="8" lg="9">
               <a target="_blank" rel="noreferrer" href="https://play.google.com/store/apps/details?id=br.com.blump.mobile.cyclist">
                 <img
                   src={`/static/assets/playstore.png`}
@@ -80,13 +87,13 @@ const Giramondo = () => {
                   className="ml-5"
                 />
               </a>
+              </Col>
             </Row>
 
             <Row className="justify-content-center direction-column">
               <Col xl="8" lg="9">
                 <div className="default-info mt-20 mb-10">
                   <img
-                    className="bianchi-brands-img"
                     src={`/static/assets/shimano-service.jpg`}
                     alt="Logo Shimano"
                     width="200px"
@@ -103,7 +110,6 @@ const Giramondo = () => {
 
                 <div className="default-info mb-10">
                   <img
-                    className="bianchi-brands-img"
                     src={`/static/assets/campagnolo.png`}
                     alt="Logo Campagnolo"
                   />
