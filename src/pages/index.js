@@ -20,23 +20,6 @@ const IndexPage = () => {
       >
         <Hero />
         <Services />
-        {/* <Brand 
-          id="bikes" 
-          title="Bikes"
-          brands={[
-            {
-              name: 'bianchi',
-              url: '/produtos/bianchi',
-              src: 'bianchi.png',
-            },
-            {
-              name: 'five',
-              url: '/produtos/five-bikes',
-              src: 'five.png',
-            }
-        ]}
-        /> */}
-
 
         {/* <CaseStudies /> */}
         <CTA2 />

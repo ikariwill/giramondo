@@ -34,12 +34,15 @@ const Footer = () => {
                 white={gContext.footer.theme === "light"}
                 className="footer-logo mb-11"
               />
+
+            </Col>
+            <Col lg="8" md="8" className="offset-lg-1">
               <p>
                 Atendimento: seg a sex 9h as 18h, sábado 10h as 15h
               </p>
               <p className="gr-text-11">
                 Alameda dos Jurupis, 285 - Moema, São Paulo - SP, 04088-000
-              </p>              
+              </p>
               <p className="gr-text-11 mb-0">
                 Whatsapp: 11 9 9139-9291
               </p>
@@ -62,13 +65,8 @@ const Footer = () => {
                     </a>
                   </a>
                 </li>
-                
+
               </ul>
-            </Col>
-            <Col lg="8" md="8" className="offset-lg-1">
-              <a target="_blank" href="https://www.google.com/maps/place/Giramondo+Bicicletas+e+Servi%C3%A7os+Ltda/@-23.6025464,-46.6579552,15z/data=!4m2!3m1!1s0x0:0xfdda1d9d5fd0053b?sa=X&ved=2ahUKEwjNga-zla_0AhViyDgGHW-1BLUQ_BJ6BAhTEAU">
-                <img src="https://i.imgur.com/7uLBCZC.png" alt="Mapa Giramondo" className="mapa" />
-              </a>
             </Col>
           </Row>
         </Container>

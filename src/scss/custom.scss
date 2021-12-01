@@ -31,11 +31,11 @@
 
 .logo-main {
   filter: invert(100%);
-  width: 150px;
+  width: 190px;
 }
 
 .logo-main-dark {
-  width: 150px;
+  width: 190px;
 }
 
 .single-brand {
@@ -187,4 +187,36 @@ h1 {
 .slick-prev {
   left: 15px!important;
   z-index: 999;
+}
+
+i.icon.icon-logo-facebook {
+    font-size: 20px!important;
+}
+
+i.icon.icon-instant-camera-2 {
+    font-size: 20px!important;
+}
+
+.btn-outline {
+  color: #1e2947;
+  background-color: #ffffff;
+  border-color: #1e2947;
+}
+
+.btn-outline:hover {
+  color: #fff;
+  background-color: #1e2947;
+  border-color: #1e2947;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #1e2947;
+  border-color: #fff;
+}
+
+
+.gr-menu-dropdown {
+  border-radius: 0!important;
+  box-shadow: none!important;
 }
