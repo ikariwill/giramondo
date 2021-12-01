@@ -18,7 +18,6 @@
   background: rgba(0, 0, 0, 0.2) url('../assets/image/header3.jpg');
   background-blend-mode: darken;
   background-size: cover;
-  background-position-y: 37%;
   transition: background-image 1s ease-in-out;
 }
 
@@ -178,4 +177,14 @@ h1 {
   align-items: center;
   display: flex;
   flex-direction: column;
+}
+
+.slick-next {
+  right: 15px;
+  z-index: 999;
+}
+
+.slick-prev {
+  left: 15px;
+  z-index: 999;
 }

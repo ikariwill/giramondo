@@ -1,9 +1,19 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import PageWrapper from "../../components/PageWrapper";
-import { ContactLink } from '../../components/ContactLink'
+
+import Slider from "react-slick";
 
 const Giramondo = () => {
+  const settings = {
+    dots: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    adaptiveHeight: true,
+    draggable: true,
+    touchMove: true,
+  };
   return (
     <>
       <PageWrapper
@@ -21,7 +31,23 @@ const Giramondo = () => {
                   </h2>
                   <p className="gr-text-7 mb-0 mb-lg-13">Oficinal Digital credenciada Shimano Service Center e a única Campagnolo Opnion Dealer do Brasil. Além de contar com os Mecânicos altamente treinados e experientes.</p>
                 
-                  <p># ADICIONAR CARROSSEL DA IMAGENS#</p>
+                  <Slider {...settings}>
+                    <img
+                      className="bianchi-brands-img"
+                      src={`/static/assets/oficina2.jpg`}
+                      alt="Logo Italwin"
+                    />
+                    <img
+                      className="bianchi-brands-img"
+                      src={`/static/assets/oficina3.jpg`}
+                      alt="Logo Italwin"
+                    />
+                    <img
+                      className="bianchi-brands-img"
+                      src={`/static/assets/oficina.jpeg`}
+                      alt="Logo Shimano"
+                    />
+                  </Slider>
 
                 </div>
               </Col>
@@ -31,35 +57,8 @@ const Giramondo = () => {
 
         <div className="main-block pb-6 pb-lg-17 bg-default-6">
           <Container>
+            <Row className="justify-content-center direction-column">
 
-            <Row className="justify-content-center direction-column">
-              <Col class="custom-col" xl="8" lg="9">
-                <img
-                  className="bianchi-brands-img"
-                  src={`/static/assets/oficina2.jpg`}
-                  alt="Logo Italwin"
-                />
-              </Col>
-            </Row>
-            <Row className="justify-content-center direction-column">
-              <Col class="custom-col" xl="8" lg="9">
-                <img
-                  className="bianchi-brands-img"
-                  src={`/static/assets/oficina3.jpg`}
-                  alt="Logo Italwin"
-                />
-              </Col>
-            </Row>
-            <Row className="justify-content-center direction-column">
-              <Col class="custom-col" xl="8" lg="9">
-                <img
-                  className="bianchi-brands-img"
-                  src={`/static/assets/oficina.jpeg`}
-                  alt="Logo Shimano"
-                />
-              </Col>
-            </Row>
-            <Row className="justify-content-center direction-column">
               <Col xl="8" lg="9">
                 <p>
                   Nossa oficina digital trabalha com uma plataforma de gestão de serviços onde você pode agendar serviços, conferir preços e aprovar orçamentos, acompanhar e inserir informações sobre as suas manutenções. E para facilitar tudo isso, um serviço de Chat com o mecânico, que permite o envio e recebimento de fotos da manutenção.
@@ -69,28 +68,24 @@ const Giramondo = () => {
                   Baixei o aplicativo e agende a sua revisão.
                 </p>
               </Col>
-            </Row>
-            <Row className="justify-content-center direction-column mb-10">
-              <Col class="custom-col" xl="8" lg="9">
-              <a target="_blank" rel="noreferrer" href="https://play.google.com/store/apps/details?id=br.com.blump.mobile.cyclist">
-                <img
-                  src={`/static/assets/playstore.png`}
-                  alt="Disponível na Google Play Store"
-                  width="170px"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="https://apps.apple.com/us/app/blump/id1587383812">
-                <img
-                  src={`/static/assets/appstore.png`}
-                  alt="Disponível na App Store"
-                  width="170px"
-                  className="ml-5"
-                />
-              </a>
+              <Col class="text-center" xl="8" lg="9">
+                <a target="_blank" rel="noreferrer" href="https://play.google.com/store/apps/details?id=br.com.blump.mobile.cyclist">
+                  <img
+                    src={`/static/assets/playstore.png`}
+                    alt="Disponível na Google Play Store"
+                    width="170px"
+                  />
+                </a>
+                <a target="_blank" rel="noreferrer" href="https://apps.apple.com/us/app/blump/id1587383812">
+                  <img
+                    src={`/static/assets/appstore.png`}
+                    alt="Disponível na App Store"
+                    width="170px"
+                    className="ml-5"
+                  />
+                </a>
               </Col>
-            </Row>
 
-            <Row className="justify-content-center direction-column">
               <Col xl="8" lg="9">
                 <div className="default-info mt-20 mb-10">
                   <img

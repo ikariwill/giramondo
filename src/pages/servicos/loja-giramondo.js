@@ -3,7 +3,19 @@ import { Row, Col, Container } from "react-bootstrap";
 import PageWrapper from "../../components/PageWrapper";
 import Brand from "../../sections/landing2/Brand";
 
+import Slider from "react-slick";
+
 const Loja = () => {
+  const settings = {
+    dots: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    adaptiveHeight: true,
+    draggable: true,
+    touchMove: true,
+  };
+
   return (
     <>
       <PageWrapper
@@ -24,7 +36,55 @@ const Loja = () => {
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                   </p>
-                  <p># ADICIONAR CARROSSEL DA IMAGENS#</p>
+                  <Slider {...settings}>
+                    <img
+                      className="bianchi-brands-img"
+                      src={`/static/assets/loja/loja-giramondo-1.jpeg`}
+                      alt="Loja Giramondo"
+                    />
+                    <img
+                      className="bianchi-brands-img"
+                      src={`/static/assets/loja/loja-giramondo-2.jpeg`}
+                      alt="Loja Giramondo"
+                    />
+                    <img
+                      className="bianchi-brands-img"
+                      src={`/static/assets/loja/loja-giramondo-3.jpeg`}
+                      alt="Loja Giramondo"
+                    />
+                    <img
+                      className="bianchi-brands-img"
+                      src={`/static/assets/loja/loja-giramondo-4.jpeg`}
+                      alt="Loja Giramondo"
+                    />
+                    <img
+                      className="bianchi-brands-img"
+                      src={`/static/assets/loja/loja-giramondo-5.jpeg`}
+                      alt="Loja Giramondo"
+                    />
+                    <img
+                      className="bianchi-brands-img"
+                      src={`/static/assets/loja/loja-giramondo-6.jpeg`}
+                      alt="Loja Giramondo"
+                    />
+                    <img
+                      className="bianchi-brands-img"
+                      src={`/static/assets/loja/loja-giramondo-7.jpeg`}
+                      alt="Loja Giramondo"
+                    />
+                    <img
+                      className="bianchi-brands-img"
+                      src={`/static/assets/loja/loja-giramondo-8.jpeg`}
+                      alt="Loja Giramondo"
+                    />
+                    <img
+                      className="bianchi-brands-img"
+                      src={`/static/assets/loja/loja-giramondo-9.jpeg`}
+                      alt="Loja Giramondo"
+                    />
+                    
+                  </Slider>
+      
                 </div>
               </Col>
             </Row>
