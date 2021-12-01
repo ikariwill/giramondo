@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import PageWrapper from "../../components/PageWrapper";
-import { ContactLink } from '../../components/ContactLink'
+import Brand from "../../sections/landing2/Brand";
 
 const Loja = () => {
   return (
@@ -59,6 +59,44 @@ const Loja = () => {
                 />
               </Col>
               <Col class="custom-col" xl="8" lg="9">
+                <Brand
+                  id="vestuarios"
+                  title="Vestuário"
+                  brands={[
+                    {
+                      name: 'giramondo',
+                      src: 'giramondo.png',
+                    },
+                    {
+                      name: 'bianchi',
+                      src: 'bianchi.png'
+                    },
+                    {
+                      name: 'giro',
+                      src: 'giro.jpg'
+                    },
+                    {
+                      name: 'cemporcento',
+                      src: 'cemporcento.jpg'
+                    },
+                    {
+                      name: 'sidi',
+                      src: 'sidi.jpg'
+                    },
+                    {
+                      name: 'mauro-ribeiro',
+                      src: 'mauro-ribeiro.jpg'
+                    },
+                    {
+                      name: 'campagnolo',
+                      src: 'campagnolo.png'
+                    },
+                    {
+                      name: 'castelli',
+                      src: 'castelli.jpg'
+                    }
+                  ]}
+                />
                 <p>Tudo para a Bike</p>
                 <p>#Andar térreo - escrever texto#</p>
                 <img
@@ -68,6 +106,34 @@ const Loja = () => {
                 />
               </Col>
               <Col class="custom-col" xl="8" lg="9">
+                <Brand
+                  id="componentes"
+                  title="Componentes"
+                  brands={[
+                    {
+                      name: 'campagnolo',
+                      src: 'campagnolo.png'
+                    },
+                    {
+                      name: 'shimano',
+                      src: 'shimano.jpg',
+                    },
+                    {
+                      name: 'sram',
+                      src: 'sram.jpg'
+                    },
+                    {
+                      name: 'continental',
+                      src: 'continental.jpg',
+                    },
+                    {
+                      name: 'kenda',
+                      src: 'kenda.jpg',
+                    },
+                    //{ deixar continental e kenda juntos}
+
+                  ]}
+                />
                 <p>Tudo para o Pelotão</p>
                 <p>#- escrever texto -#</p>
                 <img
