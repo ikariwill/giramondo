@@ -15,7 +15,7 @@ const Services = () => {
               md="6"
               lg="3"
               className="mb-9 mb-lg-0 border-right-custom cursor-pointer"
-              data-aos="fade-right"
+              data-aos="fade-left"
               data-aos-duration="750"
             >
               <div onClick={() => window.location.href = "/produtos/bianchi"} className="service-card gr-hover-shadow-4 d-flex flex-column text-center pt-15 px-9 pb-11 h-100">
@@ -36,7 +36,7 @@ const Services = () => {
               md="6"
               lg="3"
               className="mb-9 mb-lg-0 border-right-custom cursor-pointer"
-              data-aos="fade-up"
+              data-aos="fade-left"
               data-aos-duration="750"
             >
               <div onClick={() => window.location.href = "/produtos/five-bikes"} className="service-card gr-hover-shadow-4 d-flex flex-column text-center pt-15 px-9 pb-11 h-100">
