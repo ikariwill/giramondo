@@ -1,9 +1,7 @@
 import React from "react";
-import { useRouter } from 'next/router'
 import { Container, Row, Col } from "react-bootstrap";
 
 const Services = () => {
-  const router = useRouter()
 
   return (
     <>
