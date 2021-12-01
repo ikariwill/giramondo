@@ -37,37 +37,6 @@ const IndexPage = () => {
         ]}
         /> */}
 
-        <Brand
-          id="acessorios"
-          title="Acessórios"
-          brands={[
-            {
-              name: 'elite',
-              src: 'elite.jpg',
-            },
-
-            {
-              name: 'garmin',
-              src: 'garmin.jpg',
-            },
-            {
-              name: 'look',
-              src: 'look.jpg',
-            },
-
-            {
-              name: 'topeak',
-              src: 'topeak.jpg',
-            },
-
-            {
-              name: 'parktool',
-              src: 'parktool.jpg',
-            },
-            
-        
-        ]}
-        />
 
         {/* <CaseStudies /> */}
         <CTA2 />

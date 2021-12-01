@@ -134,6 +134,37 @@ const Loja = () => {
 
                   ]}
                 />
+                <Brand
+                  id="acessorios"
+                  title="Acessórios"
+                  brands={[
+                    {
+                      name: 'elite',
+                      src: 'elite.jpg',
+                    },
+
+                    {
+                      name: 'garmin',
+                      src: 'garmin.jpg',
+                    },
+                    {
+                      name: 'look',
+                      src: 'look.jpg',
+                    },
+
+                    {
+                      name: 'topeak',
+                      src: 'topeak.jpg',
+                    },
+
+                    {
+                      name: 'parktool',
+                      src: 'parktool.jpg',
+                    },
+
+
+                  ]}
+                />
                 <p>Tudo para o Pelotão</p>
                 <p>#- escrever texto -#</p>
                 <img
