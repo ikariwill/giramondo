@@ -4,12 +4,13 @@ import { Container, Row, Col } from "react-bootstrap";
 const Brand = ({id, title, brands = []}) => (
   <>
     {/* <!-- Brand section --> */}
-    <div id={id} className="brand-section pt-11 pb-9  pb-lg-24 bg-default-6 ">
+    <a class="anchor" id={id}></a>
+    <div className="brand-section pt-11 pb-5  pb-lg-5 bg-default-6 ">
       <Container>
         <Row className="justify-content-center align-items-center">
           <Col md="10" lg="9" xl="8">
-            <div className="section-title text-center mb-7 mb-lg-11">
-              <h2 className="title gr-text-4 mb-9">{title}</h2>
+            <div className="section-title text-center">
+              <h2 className="title gr-text-4">{title}</h2>
             </div>
           </Col>
           <Col xs="12" md="11" lg="10" xl="9">

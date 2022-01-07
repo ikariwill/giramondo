@@ -87,7 +87,7 @@ const Hero = () => {
                 <h1 className="title text-white mb-8">
                   {slider[currentSlider]?.title}
                 </h1>
-                <p className="text-white mb-11 pr-md-12">
+                <p className="hero-description text-white mb-11 pr-md-12">
                   {slider[currentSlider]?.description}
                 </p>
               </div>

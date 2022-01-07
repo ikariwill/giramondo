@@ -13,7 +13,7 @@ const Bianchi = () => {
           map: false, //style1, style2
         }}
       >
-        <div className="inner-banner pt-29 pt-lg-30 pb-9 pb-lg-12">
+        <div className="inner-banner pt-25 pt-lg-25 pb-9 pb-lg-12">
           <Container>
             <Row className="justify-content-center pt-5">
               <Col xl="8" lg="9">
@@ -25,7 +25,11 @@ const Bianchi = () => {
                       className="bianchi-logo-info"
                     />
                   </h2>
-                  <p className="gr-text-7 mb-0 mb-lg-13">Fabricante mais antigo do mundo</p>
+                  <p className="text-center gr-text-7 mb-5 mb-lg-5">
+                    <b>
+                      Fabricante mais antigo do mundo
+                    </b>
+                  </p>
                 </div>
               </Col>
             </Row>
@@ -48,16 +52,16 @@ const Bianchi = () => {
                       </a>
                     </div>
                   </div>
-                  <p className="gr-text-9 mb-9">
+                  <p className="mb-9">
                     Edoardo Bianchi, um fabricante de instrumentos médicos de 21 anos, começou seu negócio de fabricação de bicicletas em uma pequena loja na Via Nirone, 7, Milão, em 1885.
                   </p>
-                  <p className="gr-text-9 mb-9">
+                  <p className="mb-9">
                     Bianchi foi o pioneiro de muitas inovações como o freio da pinça da roda dianteira e do uso de rodas de tamanhos iguais com pneus de borracha pneumáticos.
                   </p>
-                  <p className="gr-text-9 mb-9">
+                  <p className="mb-9">
                     As bicicletas Bianchi são tradicionalmente pintadas com Celeste, uma turquesa também conhecida como Verde Bianchi.
                   </p>
-                  <p className="gr-text-9 mb-9">
+                  <p className="mb-9">
                     Mitos dizem que Celeste é a cor do céu de Milão, a cor dos olhos de uma ex-rainha da Itália para quem Edoardo Bianchi fez uma bicicleta (a águia coroada do logotipo da empresa é uma adaptação do antigo brasão real) e que era uma mistura de excesso de tinta militar. A tonalidade mudou ao longo dos anos, às vezes mais azul, depois mais verde.
                   </p>                  
 
@@ -73,11 +77,11 @@ const Bianchi = () => {
                     </div>
                   </div>
 
-                  <p className="gr-text-9 mb-9">
+                  <p className="mb-9">
                     Ao longo da era moderna, Bianchi está associada aos vencedores italianos do Giro d'Italia e do Tour de France, Fausto Coppi, <b>Marco Pantani</b> e Felice Gimondi.
                   </p>
 
-                  <p className="gr-text-9 mb-9">
+                  <p className="mb-9">
                     Ao longo dos 130 anos de história, Bianchi se tornou uma marca de estilo de vida. O desejo pela bicicleta na vida cotidiana, misturado com a cultura italiana estilosa, criou uma imagem duradoura. A evolução de Bianchi é agora, mas o futuro ainda espera ser escrito, para nos levar adiante, o que será feito por meio de nossa paixão e pesquisa tecnológica contínua.
                   </p>
 

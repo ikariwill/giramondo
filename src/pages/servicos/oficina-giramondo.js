@@ -21,7 +21,7 @@ const Giramondo = () => {
           style: "style1", //style1, style2
         }}
       >
-        <div className="inner-banner pt-29 pt-lg-30 pb-9 pb-lg-12">
+        <div className="inner-banner pt-29 pt-lg-30 pb-12 pb-lg-12">
           <Container>
             <Row className="justify-content-center direction-column pt-5">
               <Col xl="8" lg="9">
@@ -34,12 +34,12 @@ const Giramondo = () => {
                   <Slider {...settings}>
                     <img
                       className="bianchi-brands-img"
-                      src={`/static/assets/oficina2.jpg`}
+                      src={`/static/assets/oficina3.jpg`}
                       alt="Logo Italwin"
                     />
                     <img
                       className="bianchi-brands-img"
-                      src={`/static/assets/oficina3.jpg`}
+                      src={`/static/assets/oficina2.jpg`}
                       alt="Logo Italwin"
                     />
                     <img

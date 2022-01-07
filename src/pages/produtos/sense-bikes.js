@@ -13,7 +13,7 @@ const Bianchi = () => {
           map: false, //style1, style2
         }}
       >
-        <div className="inner-banner pt-29 pt-lg-30 pb-9 pb-lg-5">
+        <div className="inner-banner pt-25 pt-lg-25 pb-9 pb-lg-5">
           <Container>
             <Row className="justify-content-center pt-5">
               <Col xl="8" lg="9">
@@ -25,7 +25,7 @@ const Bianchi = () => {
                       className="bianchi-logo-info"
                     />
                   </h2>
-                  <p className="gr-text-7 mb-0">
+                  <p className="text-center gr-text-7 mb-5 mb-lg-5">
                     <b>
                       Bicicletas Produzidas Por Ciclistas,
                       Para Ciclistas
@@ -51,7 +51,7 @@ const Bianchi = () => {
                         />
                     </div>
                   </div>
-                  <p className="gr-text-9 mb-9">
+                  <p className="mb-9">
                     Fundada por ciclistas apaixonados com o objetivo de oferecer bicicletas nacionais com padrão mundial, se tornou a principal marca investidora do ciclismo nacional por acreditar que, fomentando o desenvolvimento do esporte, impactaria de forma positiva a vida das pessoas.
                   </p>                 
 
@@ -65,15 +65,15 @@ const Bianchi = () => {
                     </div>
                   </div>
 
-                  <p className="gr-text-9 mb-9">
+                  <p className="mb-9">
                     Sempre buscando inovação, a Sense desenvolve bicicletas com o que há de mais moderno em tecnologia e design. Não por menos, levou três edições do Prêmio Guidão de Ouro como melhor bicicleta nacional.
                   </p>
 
-                  <p className="gr-text-9 mb-9">
+                  <p className="mb-9">
                     A empresa detém um avançado parque fabril em Manaus com estrutura completa de produção e montagem. Conta, ainda, com pessoal capacitado para criação, distribuição, marketing, comercial e pós-venda, isso tudo em solo nacional, além de manter uma estrutura para importação e estoque. Juntamente com a Swift Carbon, adquirida em 2018, compõe a S2 Bicycle Industries com sede em Portugal e polo de desenvolvimento na África do Sul.
                   </p>
 
-                  <p className="gr-text-9 mb-9">
+                  <p className="mb-9">
                     Hoje é uma das marcas líderes de mercado e pioneira em diversos assuntos do setor, tal como a criação do conceito GROM: <b>“bicicleta de verdade para garotos e garotas que curtem a vida outdoor”!</b>
                   </p>
 
@@ -87,7 +87,7 @@ const Bianchi = () => {
                     </div>
                   </div>
 
-                  <p className="gr-text-9 mb-9">
+                  <p className="mb-9">
                     Também reconhecida por ser <b>precursora no universo de elétricas</b>, a Sense continua inovando nesse segmento a cada ano, não se atendo ao universo urbano, seu pontapé inicial em 2009.
                   </p>
 

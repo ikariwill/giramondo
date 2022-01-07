@@ -199,13 +199,25 @@ h1 {
 }
 
 .slick-next {
-  right: 15px!important;
+  right: 20px!important;
   z-index: 999;
 }
 
 .slick-prev {
-  left: 15px!important;
+  left: 20px!important;
   z-index: 999;
+}
+
+@media (min-width: 900px) {
+  .slick-next {
+    right: 40px!important;
+    z-index: 999;
+  }
+
+  .slick-prev {
+    left: 40px!important;
+    z-index: 999;
+  }
 }
 
 i.icon.icon-logo-facebook {
@@ -268,4 +280,19 @@ i.icon.icon-instant-camera-2 {
     border-top: none;
     border-left: none;
   }
+}
+
+p:not(.hero-description) {
+  text-align: justify;
+}
+
+.text-center {
+  text-align: center!important;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -50px;
+    visibility: hidden;
 }
