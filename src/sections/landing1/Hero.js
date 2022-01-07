@@ -7,23 +7,23 @@ import imgDot from "../../assets/image/l5/png/l5-dot-shape.png";
 const slider = [
   {
     title: "Venha para uma nova experiência.",
-    description: `Primeiro showroom Bianchi do Brasil.`,
+    description: `Primeiro showroom da Bianchi no Brasil.`,
   },
   {
     title: "Venha para uma nova experiência.",
-    description: `Primeiro showroom Bianchi do Brasil.`,
+    description: `Primeiro showroom da Bianchi no Brasil.`,
   },
   {
-    title: "Bicicletas Produzidas Por Ciclistas, Para Ciclistas",
-    description: ``,
-  },
-  {
-    title: "Venha para uma nova experiência.",
-    description: `Primeiro showroom Bianchi do Brasil.`,
+    title: "A casa da Sense em Moema",
+    description: `Produtos Exclusivos`,
   },
   {
     title: "Venha para uma nova experiência.",
-    description: `Primeiro showroom Bianchi do Brasil.`,
+    description: `Primeiro showroom da Bianchi no Brasil.`,
+  },
+  {
+    title: "Venha para uma nova experiência.",
+    description: `Primeiro showroom da Bianchi no Brasil.`,
   }
 ]
 
