@@ -34,10 +34,11 @@ const Loja = () => {
                   <p className="gr-text-7 mb-0 mb-lg-13">Uma nova experiência
                   </p>
                   <p>
-                    Venha conferir uma nova experiência no ciclismo. Nossa loja é o primeiro showroom da Bianchi e Five do Brasil, além de ser a nova casa da Sense em Moema.
+                    Fundada por 4 amigos ciclistas, está no DNA da Giramondo proporcionar a você uma nova e abrangente experiência em ciclismo.
+                    Nossa loja é o primeiro showroom da Bianchi e Five do Brasil, além de ser a nova casa da Sense em Moema. 
                   </p>
                   <p>
-                    Temos um ambiente exclusivo para sua bike com peças e acessórios, além de uma área de convívio muito agradável para tomar aquele café ou até mesmo uma cerveja depois de um pedal. 
+                    emos um ambiente exclusivo para sua bike com peças e acessórios, além de uma área de convívio muito agradável para tomar aquele café ou até mesmo uma cerveja depois de um pedal.
                   </p>
                   <Slider {...settings}>
                     <img
