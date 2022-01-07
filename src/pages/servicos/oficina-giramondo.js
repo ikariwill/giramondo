@@ -24,7 +24,7 @@ const Giramondo = () => {
         <div className="inner-banner pt-29 pt-lg-30 pb-12 pb-lg-12">
           <Container>
             <Row className="justify-content-center direction-column pt-5">
-              <Col xl="8" lg="9">
+              <Col xl="10" lg="10">
                 <div className="px-md-15 text-center">
                   <h2 className="title gr-text-2 mb-8 mb-lg-10">
                     Oficina Giramondo

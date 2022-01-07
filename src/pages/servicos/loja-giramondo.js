@@ -26,7 +26,7 @@ const Loja = () => {
         <div className="inner-banner pt-29 pt-lg-30 pb-9 pb-lg-12">
           <Container>
             <Row className="justify-content-center pt-5">
-              <Col xl="8" lg="9">
+              <Col xl="10" lg="10">
                 <div className="px-md-15 text-center">
                   <h2 className="title gr-text-2 mb-8 mb-lg-10">
                     Giramondo BikeShop
@@ -38,10 +38,12 @@ const Loja = () => {
                   </p>
                   <p>
                     Fundada por 4 amigos ciclistas, está no DNA da Giramondo proporcionar a você uma nova e abrangente experiência em ciclismo.
-                    Nossa loja é o primeiro showroom da Bianchi e Five do Brasil, além de ser a nova casa da Sense em Moema. 
                   </p>
                   <p>
-                    Temos um ambiente exclusivo para sua bike com peças e acessórios, além de uma área de convívio muito agradável para tomar aquele café ou até mesmo uma cerveja depois de um pedal.
+                    Nossa loja é o primeiro showroom da Bianchi e Five do Brasil, além de ser a nova casa da Sense em Moema. 
+                  </p>
+                  <p className="mb-20">
+                    Temos um ambiente exclusivo para sua bike com peças e acessórios, além de uma área de convívio muito agradável para tomar aquele café.
                   </p>
                   <Slider {...settings}>
                     <img
