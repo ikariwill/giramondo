@@ -39,11 +39,8 @@ const Loja = () => {
                   <p>
                     Fundada por 4 amigos ciclistas, está no DNA da Giramondo proporcionar a você uma nova e abrangente experiência em ciclismo.
                   </p>
-                  <p>
-                    Nossa loja é o primeiro showroom da Bianchi e Five do Brasil, além de ser a nova casa da Sense em Moema. 
-                  </p>
                   <p className="mb-20">
-                    Temos um ambiente exclusivo para sua bike com peças e acessórios, além de uma área de convívio muito agradável para tomar aquele café.
+                    Nossa loja é o primeiro showroom da Bianchi e Five do Brasil, além de ser a nova casa da Sense em Moema. 
                   </p>
                   <Slider {...settings}>
                     <img
@@ -105,27 +102,9 @@ const Loja = () => {
             <Row className="justify-content-center flex-column align-items-center">
               <Col className="custom-col" xl="8" lg="9">
                 <p><b>Tudo para o Ciclista</b></p>
-                <p>Aqui você encontra as bikes mais fantásticas da Bianchi e Sense. Além disso, temos os produtos com a marca Bianchi e as melhores marcas de vestuário do mundo do ciclismo e a linha de vestuário exclusivo da Giramondo.</p>
-                  {/* <img
-                    className="bianchi-brands-img"
-                    src={`/static/assets/loja/loja-giramondo-2.jpeg`}
-                    alt="Loja Giramondo"
-                  />
-                  <img
-                    className="bianchi-brands-img"
-                    src={`/static/assets/ciclista.jpeg`}
-                    alt="Loja Giramondo"
-                  />
-                  <img
-                    className="bianchi-brands-img"
-                    src={`/static/assets/roupa.jpeg`}
-                    alt="Loja Giramondo"
-                  />
-                  <img
-                    className="bianchi-brands-img"
-                    src={`/static/assets/loja2.jpeg`}
-                    alt="Loja Giramondo"
-                  /> */}
+                <p>
+                  Aqui você encontra as bikes mais fantásticas da Bianchi e da Sense. Em nosso showroom temos os produtos exclusivos com a marca Bianchi e o melhor vestuário do mundo do ciclismo. Venha conhecer também a nossa linha de vestuário da Giramondo.
+                </p>
               </Col>
               <Col className="custom-col" xl="12" lg="12">
                 <Brand
@@ -169,7 +148,9 @@ const Loja = () => {
                 </Col>
               <Col className="custom-col" xl="8" lg="9">
                 <p><b>Tudo para sua Bike</b></p>
-                <p>Precisando de algo para sua bike? Você encontra aqui uma grande seleção de peças e acessórios que vão desde luzes para o pedal seguro até grupos completos da Campagnolo e Shimano.</p>
+                <p>
+                  Precisando de algo para sua bike? Você encontra aqui uma grande seleção de peças e acessórios, que vão desde luzes para o pedal seguro até grupos completos da Campagnolo e Shimano.
+                </p>
                 <img
                   className="bianchi-brands-img"
                   src={`/static/assets/loja/loja-giramondo-9.jpeg`}
@@ -235,7 +216,9 @@ const Loja = () => {
                   ]}
                 />
                 <p><b>Tudo para o Pelotão</b></p>
-                <p>Área de convívio para você e seus amigos do pedal. Venha tomar um café conosco.</p>
+                <p>
+                  Venha tomar um café na nossa área de convívio com os seus amigos do pedal.
+                </p>
                 <img
                   className="bianchi-brands-img"
                   src={`/static/assets/convivencia.jpg`}

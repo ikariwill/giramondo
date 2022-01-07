@@ -89,7 +89,24 @@ const Layout = ({ children, pageContext }) => {
         <div data-theme-mode-panel-active data-theme="light">
           <GlobalStyle />
           <Head>
-            <title>GIRAMONDO BIKE SHOP</title>
+            <meta charset="utf-8"/>
+            <title>GIRAMONDO BIKESHOP</title>
+            <meta name="description" content="Giramondo Bikeshop a sua nova experiência no ciclismo"/>
+            <meta name="image" content="https://i.imgur.com/WiF8rPz.jpg"/>
+            <meta itemprop="name" content="GIRAMONDO BIKESHOP"/>
+            <meta itemprop="description" content="Giramondo Bikeshop a sua nova experiência no ciclismo"/>
+            <meta itemprop="image" content="https://i.imgur.com/WiF8rPz.jpg"/>
+            <meta name="twitter:card" content="summary"/>
+            <meta name="twitter:title" content="GIRAMONDO BIKESHOP"/>
+            <meta name="twitter:description" content="Giramondo Bikeshop a sua nova experiência no ciclismo"/>
+            <meta name="og:title" content="GIRAMONDO BIKESHOP"/>
+            <meta name="og:description" content="Giramondo Bikeshop a sua nova experiência no ciclismo"/>
+            <meta name="og:image" content="https://i.imgur.com/WiF8rPz.jpg"/>
+            <meta name="og:url" content="https://giramondobike.com"/>
+            <meta name="og:site_name" content="GIRAMONDO BIKESHOP"/>
+            <meta name="og:locale" content="pt_BR"/>
+            <meta name="og:type" content="website"/>
+            <meta name="keywords" content="giramondo bikeshop, bianchi brasil, bianchi moema, bianchi são paulo, sense moema, sense são paulo, bike elétrica Five"></meta>
             <link rel="icon" type="image/png" href={imgFavicon} />
           </Head>
           <Loader id="loading" className={visibleLoader ? "" : "inActive"}>

@@ -6,19 +6,19 @@ import imgDot from "../../assets/image/l5/png/l5-dot-shape.png";
 
 const slider = [
   {
-    title: "Venha para uma nova experiência.",
+    title: "Venha para uma nova experiência",
     description: ``,
   },
   {
-    title: "Primeiro showroom da Bianchi no Brasil.",
+    title: "Primeiro showroom da Bianchi no Brasil",
     description: ``,
   },
   {
-    title: "A casa da Sense em Moema.",
+    title: "A casa da Sense em Moema",
     description: ``,
   },
   {
-    title: "Produtos Exclusivos.",
+    title: "Produtos Exclusivos",
     description: ``,
   }
 ]
