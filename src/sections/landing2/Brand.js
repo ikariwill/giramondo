@@ -4,7 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 const Brand = ({id, title, brands = []}) => (
   <>
     {/* <!-- Brand section --> */}
-    <a class="anchor" id={id}></a>
+    <a className="anchor" id={id}></a>
     <div className="brand-section pt-11 pb-5  pb-lg-5 bg-default-6 ">
       <Container>
         <Row className="justify-content-center align-items-center">
