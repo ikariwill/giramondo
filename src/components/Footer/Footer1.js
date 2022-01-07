@@ -47,7 +47,7 @@ const Footer = () => {
                 Whatsapp: 11 9 9139-9291
               </p>
               <p className="gr-text-11">
-                Telefone: 11 5051-3023
+                Telefone: 11 5051-3323
               </p>
               <ul className="social-icons py-7 list-unstyled mb-7 mb-lg-0">
 
