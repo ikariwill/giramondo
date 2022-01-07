@@ -97,7 +97,7 @@ const Loja = () => {
               <Col class="custom-col" xl="8" lg="9">
                 <p>Tudo para o Ciclista</p>
                 <p>#Andar superior - escrever texto#</p>
-                <img
+                {/* <img
                   className="bianchi-brands-img"
                   src={`/static/assets/loja/loja-giramondo-2.jpeg`}
                   alt="Loja Giramondo"
@@ -116,7 +116,7 @@ const Loja = () => {
                   className="bianchi-brands-img"
                   src={`/static/assets/loja2.jpeg`}
                   alt="Loja Giramondo"
-                />
+                /> */}
               </Col>
               <Col class="custom-col" xl="8" lg="9">
                 <Brand
@@ -159,11 +159,11 @@ const Loja = () => {
                 />
                 <p>Tudo para a Bike</p>
                 <p>#Andar térreo - escrever texto#</p>
-                <img
+                {/* <img
                   className="bianchi-brands-img"
                   src={`/static/assets/loja/loja-giramondo-9.jpeg`}
                   alt="Loja Giramondo"
-                />
+                /> */}
               </Col>
               <Col class="custom-col" xl="8" lg="9">
                 <Brand
@@ -227,11 +227,11 @@ const Loja = () => {
                 />
                 <p>Tudo para o Pelotão</p>
                 <p>#- escrever texto -#</p>
-                <img
+                {/* <img
                   className="bianchi-brands-img"
                   src={`/static/assets/convivencia.jpg`}
                   alt="Loja Giramondo"
-                />
+                /> */}
               </Col>
             </Row>
           </Container>

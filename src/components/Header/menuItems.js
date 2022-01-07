@@ -4,7 +4,15 @@ export const menuItems = [
     name: '#',
     label: 'PRODUTOS',
     items: [
-      { name: "/#bikes", label: "BIKES" },
+      { 
+        name: "/#bikes", 
+        label: "BIKES",
+        items: [
+          { name: "/produtos/bianchi", label: "BIANCHI" },
+          { name: "/produtos/sense-bikes", label: "SENSE" },
+          { name: "/produtos/five-bikes", label: "FIVE" },
+        ]
+      },
       { name: "/servicos/loja-giramondo#vestuarios", label: "VESTUÁRIOS" },
       { name: "/servicos/loja-giramondo#componentes", label: "COMPONENTES" },
       { name: "/servicos/loja-giramondo#acessorios", label: "ACESSÓRIOS" },

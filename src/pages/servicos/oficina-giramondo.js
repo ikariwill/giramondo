@@ -68,7 +68,7 @@ const Giramondo = () => {
                   Baixei o aplicativo e agende a sua revisão.
                 </p>
               </Col>
-              <Col class="text-center" xl="8" lg="9">
+              <Col className="text-center" xl="8" lg="9">
                 <a target="_blank" rel="noreferrer" href="https://play.google.com/store/apps/details?id=br.com.blump.mobile.cyclist">
                   <img
                     src={`/static/assets/playstore.png`}

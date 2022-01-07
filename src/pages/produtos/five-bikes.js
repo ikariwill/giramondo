@@ -35,18 +35,14 @@ const Five = () => {
         <div className="main-block pb-6 pb-lg-17 bg-default-6">
           <Container>
             <Row className="justify-content-center">
-              <Col xl="8" lg="9">
+              <Col className="text-center" xl="8" lg="9">
                 <div className="single-block mb-12 mb-lg-15">
-                  <div className="five-video">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/iFYTCgEWPdk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     
-                    <div className="description-five">
                       <p className="gr-text-9 mb-9">
                         Com uma fábrica industrial na Itália, a FIVE fabrica bicicletas e-bike com design moderno e motores sustentáveis. Pensando não apenas no hoje, mas no futuro.
                         Desde os componentes às baterias, são projetadas visando a sustentabilidade e qualidade,  bem como levá-lo ao seu destino sem muito esforço e muito mais rápido.
                       </p>
-                    </div>
-                  </div>
                   <p>
                     A FIVE possui, atualmente, 4 marcas registradas no grupo – Wayel, Italwin, Today Sunshine e Lockbike – além de projetos e criações não somente de e-bikes, mas também de veículos leves, concedo e ampliando toda a tecnologia, conforto e agilidade para seus usuários.
                   </p>

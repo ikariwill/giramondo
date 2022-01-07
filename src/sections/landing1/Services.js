@@ -10,84 +10,104 @@ const Services = () => {
         <Container>
           <Row className="justify-content-center position-relative gr-z-index-1">
             <Col
-              md="6"
-              lg="3"
+              md="2"
+              lg="2"
               className="mb-9 mb-lg-0 border-right-custom"
               data-aos="fade-left"
               data-aos-duration="750"
             >
-              <div  className="service-card d-flex flex-column text-center pt-15 px-9 pb-11 h-100">
+              <div  className="service-card d-flex flex-column text-center pt-15 px-4 pb-11 h-100">
                 <div className="card-img mb-11">
-                  <img width="172px" src="/static/assets/bianchi.png" alt="Bianchi" />
+                  <img width="130px" src="/static/assets/bianchi.png" alt="Bianchi" />
                 </div>
-                <h3 className="card-title gr-text-6 mb-6">Primeiro Showroom no Brasil</h3>
+                <h3 className="card-title gr-text-7 mb-4">Primeiro Showroom no Brasil</h3>
                 <a
                   href="/servicos/espaco-bianchi"
-                  className="gr-text-9 btn btn-outline mt-auto"
+                  className="gr-text-9 btn btn-outline btn-custom mt-auto"
                 >
                   Saiba mais
                 </a>
               </div>
             </Col>
             <Col
-              md="6"
-              lg="3"
+              md="2"
+              lg="2"
               className="mb-9 mb-lg-0 border-right-custom"
               data-aos="fade-left"
               data-aos-duration="750"
             >
-              <div className="service-card  d-flex flex-column text-center pt-15 px-9 pb-11 h-100">
+              <div className="service-card d-flex flex-column text-center pt-15 px-4 pb-11 h-100">
                 <div className="card-img mb-11">
-                  <img width="120px" src="/static/assets/five.png" alt="Five" />
+                  <img width="130px" src="/static/assets/sense.png" alt="Sense" />
                 </div>
-                <h3 className="card-title gr-text-6 mb-6">As melhores <br/> e-bikes urbanas italianas</h3>
+                <h3 className="card-title gr-text-7 mb-4">Bike Passion</h3>
                 <a
-                  href="/servicos/five"
-                  className="gr-text-9 btn btn-outline mt-auto"
+                  href="/produtos/sense-bikes"
+                  className="gr-text-9 btn btn-outline btn-custom mt-auto"
                 >
                   Saiba mais
                 </a>
               </div>
             </Col>
             <Col
-              md="6"
-              lg="3"
+              md="2"
+              lg="2"
+              className="mb-9 mb-lg-0 border-right-custom"
+              data-aos="fade-left"
+              data-aos-duration="750"
+            >
+              <div className="service-card  d-flex flex-column text-center pt-15 px-4 pb-11 h-100">
+                <div className="card-img mb-11">
+                  <img width="100px" src="/static/assets/five.png" alt="Five" />
+                </div>
+                <h3 className="card-title gr-text-7 mb-4">As melhores <br/> e-bikes urbanas italianas</h3>
+                <a
+                  href="/produtos/five-bikes"
+                  className="gr-text-9 btn btn-outline btn-custom mt-auto"
+                >
+                  Saiba mais
+                </a>
+              </div>
+            </Col>
+            <Col
+              md="2"
+              lg="2"
               className="mb-9 mb-lg-0 border-right-custom"
               data-aos="fade-left"
               data-aos-duration="750"
             >
               <div 
-                className="service-card d-flex flex-column text-center pt-10 px-9 pb-11 h-100"
+                className="service-card d-flex flex-column text-center pt-10 px-4 pb-11 h-100"
               >
                 <div className="card-img mb-11">
-                  <img width="120px" src="/static/assets/loja.png" alt="Loja Giramondo" />
+                  <img width="100px" src="/static/assets/loja.png" alt="Loja Giramondo" />
                 </div>
-                <h3 className="card-title gr-text-6 mb-6">
+                <h3 className="card-title gr-text-7 mb-4">
                   Giramondo Bikeshop<br/> a sua nova experiência no ciclismo
                 </h3>
                 <a
                   href="/servicos/loja-giramondo"
-                  className="gr-text-9 btn btn-outline mt-auto"
+                  className="gr-text-9 btn btn-outline btn-custom mt-auto"
                 >
                   Saiba mais
                 </a>
               </div>
             </Col> 
             <Col
-              md="6"
-              lg="3"
+              md="2"
+              lg="2"
               className="mb-9 mb-lg-0"
               data-aos="fade-left"
               data-aos-duration="750"
             >
-              <div  className="service-card d-flex flex-column text-center pt-8 px-9 pb-11 h-100">
+              <div  className="service-card d-flex flex-column text-center pt-8 px-4 pb-11 h-100">
                 <div className="card-img mb-11">
-                  <img width="120px" src="/static/assets/oficina.png" alt="Oficina Giramondo" />
+                  <img width="100px" src="/static/assets/oficina.png" alt="Oficina Giramondo" />
                 </div>
-                <h3 className="card-title gr-text-6 mb-6 custom-mt"> Oficina digital e com profissionais altamente especializados</h3>
+                <h3 className="card-title gr-text-7 mb-4 custom-mt"> Oficina digital e com profissionais altamente especializados</h3>
                 <a
                   href="/servicos/oficina-giramondo"
-                  className="gr-text-9 btn btn-outline mt-auto"
+                  className="gr-text-9 btn btn-outline btn-custom mt-auto"
                 >
                   Saiba mais
                 </a>

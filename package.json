@@ -1,8 +1,7 @@
 {
-  "name": "shadepro-next",
-  "description": "ShadePro NextJS with Bootstrap 4, Styled Components, Slick Carousel, React Headroom, etc",
+  "name": "giramondo",
+  "description": "giramondo nextjs website",
   "version": "1.0.0",
-  "author": "grayic",
   "private": true,
   "scripts": {
     "dev": "next dev",
