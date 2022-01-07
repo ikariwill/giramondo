@@ -10,19 +10,19 @@ const Services = () => {
         <Container>
           <Row className="justify-content-center position-relative gr-z-index-1">
             <Col
-              md="2"
+              md="5"
               lg="2"
               className="mb-9 mb-lg-0 border-right-custom"
               data-aos="fade-left"
               data-aos-duration="750"
             >
-              <div  className="service-card d-flex flex-column text-center pt-15 px-4 pb-11 h-100">
+              <div  className="service-card d-flex flex-column text-center pt-15  pb-11 h-100">
                 <div className="card-img mb-11">
                   <img width="130px" src="/static/assets/bianchi.png" alt="Bianchi" />
                 </div>
                 <h3 className="card-title gr-text-7 mb-4">Primeiro Showroom no Brasil</h3>
                 <a
-                  href="/servicos/espaco-bianchi"
+                  href="/produtos/bianchi"
                   className="gr-text-9 btn btn-outline btn-custom mt-auto"
                 >
                   Saiba mais
@@ -30,15 +30,15 @@ const Services = () => {
               </div>
             </Col>
             <Col
-              md="2"
+              md="5"
               lg="2"
               className="mb-9 mb-lg-0 border-right-custom"
               data-aos="fade-left"
               data-aos-duration="750"
             >
-              <div className="service-card d-flex flex-column text-center pt-15 px-4 pb-11 h-100">
+              <div className="service-card d-flex flex-column text-center pt-15  pb-11 h-100">
                 <div className="card-img mb-11">
-                  <img width="130px" src="/static/assets/sense.png" alt="Sense" />
+                  <img width="140px" src="/static/assets/sense.png" alt="Sense" />
                 </div>
                 <h3 className="card-title gr-text-7 mb-4">Bike Passion</h3>
                 <a
@@ -50,13 +50,13 @@ const Services = () => {
               </div>
             </Col>
             <Col
-              md="2"
+              md="5"
               lg="2"
               className="mb-9 mb-lg-0 border-right-custom"
               data-aos="fade-left"
               data-aos-duration="750"
             >
-              <div className="service-card  d-flex flex-column text-center pt-15 px-4 pb-11 h-100">
+              <div className="service-card  d-flex flex-column text-center pt-15  pb-11 h-100">
                 <div className="card-img mb-11">
                   <img width="100px" src="/static/assets/five.png" alt="Five" />
                 </div>
@@ -70,14 +70,14 @@ const Services = () => {
               </div>
             </Col>
             <Col
-              md="2"
+              md="5"
               lg="2"
               className="mb-9 mb-lg-0 border-right-custom"
               data-aos="fade-left"
               data-aos-duration="750"
             >
               <div 
-                className="service-card d-flex flex-column text-center pt-10 px-4 pb-11 h-100"
+                className="service-card d-flex flex-column text-center pt-10  pb-11 h-100"
               >
                 <div className="card-img mb-11">
                   <img width="100px" src="/static/assets/loja.png" alt="Loja Giramondo" />
@@ -94,13 +94,13 @@ const Services = () => {
               </div>
             </Col> 
             <Col
-              md="2"
+              md="5"
               lg="2"
               className="mb-9 mb-lg-0"
               data-aos="fade-left"
               data-aos-duration="750"
             >
-              <div  className="service-card d-flex flex-column text-center pt-8 px-4 pb-11 h-100">
+              <div  className="service-card d-flex flex-column text-center pt-8  pb-11 h-100">
                 <div className="card-img mb-11">
                   <img width="100px" src="/static/assets/oficina.png" alt="Oficina Giramondo" />
                 </div>

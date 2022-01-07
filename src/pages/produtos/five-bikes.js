@@ -37,7 +37,9 @@ const Five = () => {
             <Row className="justify-content-center">
               <Col className="text-center" xl="8" lg="9">
                 <div className="single-block mb-12 mb-lg-15">
+                  <div className="video-container">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/iFYTCgEWPdk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
                     
                       <p className="gr-text-9 mb-9">
                         Com uma fábrica industrial na Itália, a FIVE fabrica bicicletas e-bike com design moderno e motores sustentáveis. Pensando não apenas no hoje, mas no futuro.

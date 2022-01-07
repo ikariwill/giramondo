@@ -233,7 +233,6 @@ const Loja = () => {
                   src={`/static/assets/convivencia.jpg`}
                   alt="Loja Giramondo"
                 />
-                <p><b>Atendimento: seg a sex 10h as 19h, sábado 10h as 15h</b></p>
               </Col>
             </Row>
           </Container>

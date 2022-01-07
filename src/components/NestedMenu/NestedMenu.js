@@ -172,6 +172,22 @@ const NestedMenu = ({ menuItems = defaultMenuItems }) => {
             {...menuItem}
           />
         ))}
+        <ul className="navbar-nav custom-nav">
+          <li className="nav-item">
+            <a className={`nav-link nav-link-dark`}
+              href="https://www.facebook.com/giramondo.bikeshop.sp"
+            >
+              <i className="icon icon-logo-facebook"></i>
+            </a>
+          </li>
+          <li className="nav-item">
+            <a
+              className={`nav-link nav-link-dark`}
+              href="https://www.instagram.com/giramondo.bikeshop">
+              <i className="icon icon-instant-camera-2"></i>
+            </a>
+          </li>
+        </ul>
       </ListGroup>
     </NestedMenuContainer>
   );

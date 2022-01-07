@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import useInterval from 'use-interval'
 
@@ -12,6 +12,10 @@ const slider = [
   {
     title: "Venha para uma nova experiência.",
     description: `Primeiro showroom Bianchi do Brasil.`,
+  },
+  {
+    title: "Bicicletas Produzidas Por Ciclistas, Para Ciclistas",
+    description: ``,
   },
   {
     title: "Venha para uma nova experiência.",
@@ -30,12 +34,12 @@ const Hero = () => {
   useInterval(() => {
     setCurrentSlider(currentSlider + 1);
 
-    if(currentSlider === 3) {
+    if(currentSlider === 4) {
       setCurrentSlider(0);
       return
     }
 
-  }, 3000);
+  }, 4000);
 
   return (
     <>

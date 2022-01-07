@@ -25,7 +25,6 @@ const Bianchi = () => {
                       className="bianchi-logo-info"
                     />
                   </h2>
-                  <p className="gr-text-7 mb-0">DESDE 2009</p>
                   <p className="gr-text-7 mb-0">
                     <b>
                       Bicicletas Produzidas Por Ciclistas,

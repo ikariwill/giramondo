@@ -29,7 +29,7 @@ const Giramondo = () => {
                   <h2 className="title gr-text-2 mb-8 mb-lg-10">
                     Oficina Giramondo
                   </h2>
-                  <p className="gr-text-7 mb-0 mb-lg-13">Oficinal Digital credenciada Shimano Service Center e a única Campagnolo Opnion Dealer do Brasil. Além de contar com os Mecânicos altamente treinados e experientes.</p>
+                  <p className="gr-text-7 mb-10 mb-lg-13">Oficinal Digital credenciada Shimano Service Center e a única Campagnolo Opnion Dealer do Brasil. Além de contar com os Mecânicos altamente treinados e experientes.</p>
                 
                   <Slider {...settings}>
                     <img
@@ -94,7 +94,7 @@ const Giramondo = () => {
                     width="200px"
                   />
 
-                  <p className="gr-text-9 mb-9">
+                  <p className="gr-text-9 mb-10 mt-10">
                     A Giramondo Bike Shop é reconhecida como um Centro de especialistas SHIMANO, oferecendo consultoria e uma ampla linha de componentes, produtos, peças de reposição, ferramental completo e serviços especializados. Nossos mecânicos recebem treinamento técnico de alto nível e têm know-how para lidar com toda a linha de componentes SHIMANO: das linhas básicas às mais altas, que envolvem tecnologia eletrônica e engenharia de precisão.
                     <a target="_blank" rel="noreferrer" href="https://bike.shimano.com/pt-BR/information/SHIMANO_SERVICE_CENTER.html">
                       {' '}Saiba Mais
