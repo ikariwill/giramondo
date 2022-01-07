@@ -34,7 +34,10 @@ const Loja = () => {
                   <p className="gr-text-7 mb-0 mb-lg-13">Uma nova experiência
                   </p>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Venha conferir uma nova experiência no ciclismo. Nossa loja é o primeiro showroom da Bianchi e Five do Brasil, além de ser a nova casa da Sense em Moema.
+                  </p>
+                  <p>
+                    Temos um ambiente exclusivo para sua bike com peças e acessórios, além de uma área de convívio muito agradável para tomar aquele café ou até mesmo uma cerveja depois de um pedal. 
                   </p>
                   <Slider {...settings}>
                     <img
@@ -94,31 +97,31 @@ const Loja = () => {
         <div className="main-block pb-6 pb-lg-17 bg-default-6">
           <Container>
             <Row className="justify-content-center flex-column align-items-center">
-              <Col class="custom-col" xl="8" lg="9">
+              <Col className="custom-col" xl="8" lg="9">
                 <p>Tudo para o Ciclista</p>
-                <p>#Andar superior - escrever texto#</p>
-                {/* <img
-                  className="bianchi-brands-img"
-                  src={`/static/assets/loja/loja-giramondo-2.jpeg`}
-                  alt="Loja Giramondo"
-                />
-                <img
-                  className="bianchi-brands-img"
-                  src={`/static/assets/ciclista.jpeg`}
-                  alt="Loja Giramondo"
-                />
-                <img
-                  className="bianchi-brands-img"
-                  src={`/static/assets/roupa.jpeg`}
-                  alt="Loja Giramondo"
-                />
-                <img
-                  className="bianchi-brands-img"
-                  src={`/static/assets/loja2.jpeg`}
-                  alt="Loja Giramondo"
-                /> */}
+                <p>Aqui você encontra as bikes mais fantásticas da Bianchi e Sense. Além disso, temos os produtos com a marca Bianchi e as melhores marcas de vestuário do mundo do ciclismo e a linha de vestuário exclusivo da Giramondo.</p>
+                  {/* <img
+                    className="bianchi-brands-img"
+                    src={`/static/assets/loja/loja-giramondo-2.jpeg`}
+                    alt="Loja Giramondo"
+                  />
+                  <img
+                    className="bianchi-brands-img"
+                    src={`/static/assets/ciclista.jpeg`}
+                    alt="Loja Giramondo"
+                  />
+                  <img
+                    className="bianchi-brands-img"
+                    src={`/static/assets/roupa.jpeg`}
+                    alt="Loja Giramondo"
+                  />
+                  <img
+                    className="bianchi-brands-img"
+                    src={`/static/assets/loja2.jpeg`}
+                    alt="Loja Giramondo"
+                  /> */}
               </Col>
-              <Col class="custom-col" xl="8" lg="9">
+              <Col className="custom-col" xl="12" lg="12">
                 <Brand
                   id="vestuarios"
                   title="Vestuário"
@@ -157,15 +160,15 @@ const Loja = () => {
                     }
                   ]}
                 />
-                <p>Tudo para a Bike</p>
-                <p>#Andar térreo - escrever texto#</p>
+                <p>Tudo para sua Bike</p>
+                <p>Precisando de algo para sua bike? Você encontra aqui. Uma grande seleção de peças e acessórios que vão desde luzes para o pedal seguro até grupos completos das Campagnolo.</p>
                 {/* <img
                   className="bianchi-brands-img"
                   src={`/static/assets/loja/loja-giramondo-9.jpeg`}
                   alt="Loja Giramondo"
                 /> */}
               </Col>
-              <Col class="custom-col" xl="8" lg="9">
+              <Col className="custom-col" xl="12" lg="12">
                 <Brand
                   id="componentes"
                   title="Componentes"
@@ -190,8 +193,6 @@ const Loja = () => {
                       name: 'kenda',
                       src: 'kenda.jpg',
                     },
-                    //{ deixar continental e kenda juntos}
-
                   ]}
                 />
                 <Brand
@@ -226,12 +227,13 @@ const Loja = () => {
                   ]}
                 />
                 <p>Tudo para o Pelotão</p>
-                <p>#- escrever texto -#</p>
-                {/* <img
+                <p>Área de convívio para você e seus amigos do pedal. Venha tomar um café conosco.</p>
+                <img
                   className="bianchi-brands-img"
                   src={`/static/assets/convivencia.jpg`}
                   alt="Loja Giramondo"
-                /> */}
+                />
+                <p><b>Atendimento: seg a sex 10h as 19h, sábado 10h as 15h</b></p>
               </Col>
             </Row>
           </Container>

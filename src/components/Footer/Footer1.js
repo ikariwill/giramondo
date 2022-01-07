@@ -38,7 +38,7 @@ const Footer = () => {
             </Col>
             <Col lg="8" md="8" className="offset-lg-1">
               <p>
-                Atendimento: seg a sex 9h as 18h, sábado 10h as 15h
+                Atendimento: seg a sex 10h as 19h, sábado 10h as 15h
               </p>
               <p className="gr-text-11">
                 Alameda dos Jurupis, 285 - Moema, São Paulo - SP, 04088-000
