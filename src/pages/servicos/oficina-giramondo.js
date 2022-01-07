@@ -1,5 +1,6 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
+import Head from "next/head";
 import PageWrapper from "../../components/PageWrapper";
 
 import Slider from "react-slick";
@@ -16,6 +17,9 @@ const Giramondo = () => {
   };
   return (
     <>
+      <Head>
+        <title>OFICINA GIRAMONDO</title>
+      </Head>
       <PageWrapper
         footerConfig={{
           style: "style1", //style1, style2

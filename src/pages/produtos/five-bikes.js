@@ -1,10 +1,14 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
+import Head from "next/head";
 import PageWrapper from "../../components/PageWrapper";
 
 const Five = () => {
   return (
     <>
+      <Head>
+        <title>Five no Brasil - GIRAMONDO BIKESHOP</title>
+      </Head>
       <PageWrapper
         headerConfig={{
           align: "right",

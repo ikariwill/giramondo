@@ -1,5 +1,6 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
+import Head from "next/head";
 import PageWrapper from "../../components/PageWrapper";
 
 import CTA2 from "../../sections/landing1/CTA2";
@@ -7,6 +8,9 @@ import CTA2 from "../../sections/landing1/CTA2";
 const Bianchi = () => {
   return (
     <>
+      <Head>
+        <title>Sense no Brasil - GIRAMONDO BIKESHOP</title>
+      </Head>
       <PageWrapper
         footerConfig={{
           style: "style1", 

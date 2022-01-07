@@ -1,5 +1,6 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
+import Head from "next/head";
 import PageWrapper from "../../components/PageWrapper";
 import Brand from "../../sections/landing2/Brand";
 
@@ -18,6 +19,9 @@ const Loja = () => {
 
   return (
     <>
+      <Head>
+        <title>LOJA GIRAMONDO</title>
+      </Head>
       <PageWrapper
         footerConfig={{
           style: "style1", //style1, style2
