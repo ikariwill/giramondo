@@ -107,7 +107,7 @@ const Bianchi = () => {
                       target="_blank"
                       href="https://www.bianchi.com/?store=global"
                       className="btn btn-primary mt-3 mt-lg-10 ">
-                      Conheça os produtos da Biachi
+                      Conheça os produtos da Bianchi
                     </a>
                   </div>
 
